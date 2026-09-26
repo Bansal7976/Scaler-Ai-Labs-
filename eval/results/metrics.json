@@ -1,0 +1,679 @@
+{
+  "config": {
+    "types": [
+      "ADDRESS",
+      "CREDIT_CARD",
+      "DOB",
+      "EMAIL",
+      "IP_ADDRESS",
+      "NATIONAL_ID",
+      "ORGANIZATION",
+      "PERSON",
+      "PHONE",
+      "SSN",
+      "URL"
+    ],
+    "seed": "scaler-ai-labs-2026",
+    "locale": "en_IN",
+    "min_confidence": 0.6,
+    "spacy_model": "en_core_web_md",
+    "enable_gazetteer_sweep": true,
+    "dob_mode": "labelled",
+    "clear_metadata": true,
+    "verify_output": true,
+    "disabled_detectors": []
+  },
+  "document": {
+    "corpus": "KSH International RHP -- hand-annotated sample",
+    "segments": 301,
+    "gold_spans": 288,
+    "predicted_spans": 287,
+    "strict": {
+      "per_type": {
+        "ADDRESS": {
+          "tp": 44,
+          "fp": 3,
+          "fn": 3,
+          "support": 47,
+          "precision": 0.9362,
+          "recall": 0.9362,
+          "f1": 0.9362
+        },
+        "EMAIL": {
+          "tp": 52,
+          "fp": 0,
+          "fn": 0,
+          "support": 52,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "NATIONAL_ID": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 0,
+          "support": 18,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ORGANIZATION": {
+          "tp": 35,
+          "fp": 1,
+          "fn": 2,
+          "support": 37,
+          "precision": 0.9722,
+          "recall": 0.9459,
+          "f1": 0.9589
+        },
+        "PERSON": {
+          "tp": 78,
+          "fp": 0,
+          "fn": 0,
+          "support": 78,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PHONE": {
+          "tp": 36,
+          "fp": 0,
+          "fn": 0,
+          "support": 36,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "URL": {
+          "tp": 20,
+          "fp": 0,
+          "fn": 0,
+          "support": 20,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "micro": {
+        "tp": 283,
+        "fp": 4,
+        "fn": 5,
+        "support": 288,
+        "precision": 0.9861,
+        "recall": 0.9826,
+        "f1": 0.9843
+      },
+      "macro": {
+        "precision": 0.9869,
+        "recall": 0.9832,
+        "f1": 0.985,
+        "types_averaged": 7
+      }
+    },
+    "relaxed": {
+      "per_type": {
+        "ADDRESS": {
+          "tp": 47,
+          "fp": 0,
+          "fn": 0,
+          "support": 47,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "EMAIL": {
+          "tp": 52,
+          "fp": 0,
+          "fn": 0,
+          "support": 52,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "NATIONAL_ID": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 0,
+          "support": 18,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ORGANIZATION": {
+          "tp": 36,
+          "fp": 0,
+          "fn": 1,
+          "support": 37,
+          "precision": 1.0,
+          "recall": 0.973,
+          "f1": 0.9863
+        },
+        "PERSON": {
+          "tp": 78,
+          "fp": 0,
+          "fn": 0,
+          "support": 78,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PHONE": {
+          "tp": 36,
+          "fp": 0,
+          "fn": 0,
+          "support": 36,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "URL": {
+          "tp": 20,
+          "fp": 0,
+          "fn": 0,
+          "support": 20,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "micro": {
+        "tp": 287,
+        "fp": 0,
+        "fn": 1,
+        "support": 288,
+        "precision": 1.0,
+        "recall": 0.9965,
+        "f1": 0.9983
+      },
+      "macro": {
+        "precision": 1.0,
+        "recall": 0.9961,
+        "f1": 0.998,
+        "types_averaged": 7
+      }
+    },
+    "character_level": {
+      "characters": 59399,
+      "pii_characters": 8711,
+      "tp": 8634,
+      "fp": 22,
+      "fn": 77,
+      "tn": 50666,
+      "accuracy": 0.998333,
+      "precision": 0.9975,
+      "recall": 0.9912,
+      "f1": 0.9943,
+      "specificity": 0.999566
+    },
+    "segment_level": {
+      "segments": 301,
+      "tp": 134,
+      "fp": 0,
+      "fn": 1,
+      "tn": 166,
+      "accuracy": 0.9967,
+      "precision": 1.0,
+      "recall": 0.9926
+    },
+    "by_stratum": {
+      "contact": {
+        "segments": 87,
+        "gold_spans": 164,
+        "tp": 164,
+        "fp": 0,
+        "fn": 0,
+        "support": 164,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "negative": {
+        "segments": 48,
+        "gold_spans": 14,
+        "tp": 13,
+        "fp": 0,
+        "fn": 1,
+        "support": 14,
+        "precision": 1.0,
+        "recall": 0.9286,
+        "f1": 0.963
+      },
+      "prose": {
+        "segments": 40,
+        "gold_spans": 7,
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "support": 7,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "structural": {
+        "segments": 126,
+        "gold_spans": 103,
+        "tp": 103,
+        "fp": 0,
+        "fn": 0,
+        "support": 103,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "errors": {
+      "false_positives": [],
+      "false_negatives": [
+        {
+          "location": "table 31, row 2, col 1",
+          "stratum": "negative",
+          "pii_type": "ORGANIZATION",
+          "text": "Waterloo Motors",
+          "overlapping_prediction": null
+        }
+      ],
+      "boundary_errors": [
+        {
+          "location": "table 0, row 1, col 0",
+          "pii_type": "ADDRESS",
+          "gold": "11/3, 11/4 and 11/5 Village Birdewadi Chakan Taluka - Khed Pune – 410 501\nMaharashtra, India",
+          "predicted": "11/3, 11/4 and 11/5 Village Birdewadi Chakan Taluka - Khed Pune – 410 501"
+        },
+        {
+          "location": "table 0, row 1, col 1",
+          "pii_type": "ADDRESS",
+          "gold": "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner Pune – 411 045\nMaharashtra, India",
+          "predicted": "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner Pune – 411 045"
+        },
+        {
+          "location": "table 73, row 1, col 0",
+          "pii_type": "ADDRESS",
+          "gold": "5th Floor, Gopal House\nOpposite Harshal Hall, above HDFC Limited Karve Road, Pune – 411 038\nMaharashtra, India",
+          "predicted": "Chartered Accountants\n5th Floor, Gopal House\nOpposite Harshal Hall, above HDFC Limited Karve Road, Pune – 411 038"
+        },
+        {
+          "location": "table 73, row 1, col 0",
+          "pii_type": "ORGANIZATION",
+          "gold": "Kirtane & Pandit, LLP",
+          "predicted": "Kirtane & Pandit"
+        }
+      ],
+      "type_confusions": {}
+    }
+  },
+  "synthetic": {
+    "corpus": "Synthetic corpus -- SSN / card / DOB / IP",
+    "segments": 41,
+    "gold_spans": 30,
+    "predicted_spans": 30,
+    "strict": {
+      "per_type": {
+        "CREDIT_CARD": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "support": 7,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOB": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "EMAIL": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "support": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "IP_ADDRESS": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PERSON": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "support": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PHONE": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "support": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "SSN": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "micro": {
+        "tp": 30,
+        "fp": 0,
+        "fn": 0,
+        "support": 30,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "macro": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "types_averaged": 7
+      }
+    },
+    "relaxed": {
+      "per_type": {
+        "CREDIT_CARD": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "support": 7,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOB": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "EMAIL": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "support": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "IP_ADDRESS": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PERSON": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "support": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "PHONE": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "support": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "SSN": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "micro": {
+        "tp": 30,
+        "fp": 0,
+        "fn": 0,
+        "support": 30,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "macro": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "types_averaged": 7
+      }
+    },
+    "character_level": {
+      "characters": 2409,
+      "pii_characters": 421,
+      "tp": 421,
+      "fp": 0,
+      "fn": 0,
+      "tn": 1988,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0
+    },
+    "segment_level": {
+      "segments": 41,
+      "tp": 19,
+      "fp": 0,
+      "fn": 0,
+      "tn": 22,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "by_stratum": {
+      "synthetic": {
+        "segments": 41,
+        "gold_spans": 30,
+        "tp": 30,
+        "fp": 0,
+        "fn": 0,
+        "support": 30,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "errors": {
+      "false_positives": [],
+      "false_negatives": [],
+      "boundary_errors": [],
+      "type_confusions": {}
+    }
+  },
+  "ablations": [
+    {
+      "ablation": "full",
+      "description": "the shipped configuration",
+      "predicted_spans": 287,
+      "relaxed": {
+        "tp": 287,
+        "fp": 0,
+        "fn": 1,
+        "support": 288,
+        "precision": 1.0,
+        "recall": 0.9965,
+        "f1": 0.9983
+      },
+      "strict": {
+        "tp": 283,
+        "fp": 4,
+        "fn": 5,
+        "support": 288,
+        "precision": 0.9861,
+        "recall": 0.9826,
+        "f1": 0.9843
+      }
+    },
+    {
+      "ablation": "no_gazetteer_sweep",
+      "description": "pass 1 only -- structural and NER detection, no document-wide sweep",
+      "predicted_spans": 282,
+      "relaxed": {
+        "tp": 282,
+        "fp": 0,
+        "fn": 6,
+        "support": 288,
+        "precision": 1.0,
+        "recall": 0.9792,
+        "f1": 0.9895
+      },
+      "strict": {
+        "tp": 273,
+        "fp": 9,
+        "fn": 15,
+        "support": 288,
+        "precision": 0.9681,
+        "recall": 0.9479,
+        "f1": 0.9579
+      }
+    },
+    {
+      "ablation": "no_ner",
+      "description": "no spaCy; regex, lexicons and table structure only",
+      "predicted_spans": 286,
+      "relaxed": {
+        "tp": 286,
+        "fp": 0,
+        "fn": 2,
+        "support": 288,
+        "precision": 1.0,
+        "recall": 0.9931,
+        "f1": 0.9965
+      },
+      "strict": {
+        "tp": 282,
+        "fp": 4,
+        "fn": 6,
+        "support": 288,
+        "precision": 0.986,
+        "recall": 0.9792,
+        "f1": 0.9826
+      }
+    },
+    {
+      "ablation": "no_ner_no_sweep",
+      "description": "structural and regex detection only",
+      "predicted_spans": 258,
+      "relaxed": {
+        "tp": 258,
+        "fp": 0,
+        "fn": 30,
+        "support": 288,
+        "precision": 1.0,
+        "recall": 0.8958,
+        "f1": 0.9451
+      },
+      "strict": {
+        "tp": 254,
+        "fp": 4,
+        "fn": 34,
+        "support": 288,
+        "precision": 0.9845,
+        "recall": 0.8819,
+        "f1": 0.9304
+      }
+    },
+    {
+      "ablation": "no_person_detector",
+      "description": "the person detector disabled, to isolate what it contributes",
+      "predicted_spans": 232,
+      "relaxed": {
+        "tp": 232,
+        "fp": 0,
+        "fn": 56,
+        "support": 288,
+        "precision": 1.0,
+        "recall": 0.8056,
+        "f1": 0.8923
+      },
+      "strict": {
+        "tp": 228,
+        "fp": 4,
+        "fn": 60,
+        "support": 288,
+        "precision": 0.9828,
+        "recall": 0.7917,
+        "f1": 0.8769
+      }
+    },
+    {
+      "ablation": "min_confidence_0",
+      "description": "every detection kept, however weak",
+      "predicted_spans": 287,
+      "relaxed": {
+        "tp": 287,
+        "fp": 0,
+        "fn": 1,
+        "support": 288,
+        "precision": 1.0,
+        "recall": 0.9965,
+        "f1": 0.9983
+      },
+      "strict": {
+        "tp": 283,
+        "fp": 4,
+        "fn": 5,
+        "support": 288,
+        "precision": 0.9861,
+        "recall": 0.9826,
+        "f1": 0.9843
+      }
+    },
+    {
+      "ablation": "min_confidence_090",
+      "description": "high-confidence detections only",
+      "predicted_spans": 287,
+      "relaxed": {
+        "tp": 287,
+        "fp": 0,
+        "fn": 1,
+        "support": 288,
+        "precision": 1.0,
+        "recall": 0.9965,
+        "f1": 0.9983
+      },
+      "strict": {
+        "tp": 283,
+        "fp": 4,
+        "fn": 5,
+        "support": 288,
+        "precision": 0.9861,
+        "recall": 0.9826,
+        "f1": 0.9843
+      }
+    }
+  ]
+}

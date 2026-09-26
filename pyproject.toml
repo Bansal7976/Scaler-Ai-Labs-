@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "piiredact"
+version = "1.0.0"
+description = "Detect PII in a .docx and replace it with consistent fake values."
+requires-python = ">=3.10"
+dependencies = [
+    "python-docx>=1.1.0",
+    "Faker>=25.0.0",
+    "spacy>=3.7,<4.0",
+    "phonenumbers>=8.13",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+piiredact = "piiredact.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"

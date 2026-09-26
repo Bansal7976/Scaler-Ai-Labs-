@@ -1,0 +1,100 @@
+{
+  "config": {
+    "types": [
+      "ADDRESS",
+      "CREDIT_CARD",
+      "DOB",
+      "EMAIL",
+      "IP_ADDRESS",
+      "NATIONAL_ID",
+      "ORGANIZATION",
+      "PERSON",
+      "PHONE",
+      "SSN",
+      "URL"
+    ],
+    "seed": "scaler-ai-labs-2026",
+    "locale": "en_IN",
+    "min_confidence": 0.6,
+    "spacy_model": "en_core_web_md",
+    "enable_gazetteer_sweep": true,
+    "dob_mode": "labelled",
+    "clear_metadata": true,
+    "verify_output": true,
+    "disabled_detectors": []
+  },
+  "input_document": {
+    "segments": 3766,
+    "paragraph_segments": 692,
+    "table_cell_segments": 3074,
+    "runs": 48324,
+    "characters": 325239
+  },
+  "detection": {
+    "total_spans": 681,
+    "by_type": {
+      "ADDRESS": 49,
+      "EMAIL": 52,
+      "NATIONAL_ID": 33,
+      "ORGANIZATION": 272,
+      "PERSON": 212,
+      "PHONE": 36,
+      "URL": 27
+    },
+    "by_detector": {
+      "address.anchored+gazetteer.sweep": 48,
+      "email.regex+gazetteer.sweep": 52,
+      "gazetteer.sweep": 111,
+      "gazetteer.sweep+national_id.rules": 33,
+      "gazetteer.sweep+organization.suffix": 200,
+      "gazetteer.sweep+person.hybrid": 174,
+      "gazetteer.sweep+url.regex": 27,
+      "phone.pattern": 36
+    },
+    "distinct_entities": 332,
+    "resolution": {
+      "input_spans": 1344,
+      "output_spans": 681,
+      "dropped_low_confidence": 0,
+      "merged_duplicates": 536,
+      "dropped_contained": 127,
+      "truncated": 0,
+      "dropped_after_truncation": 0,
+      "by_type": {
+        "ADDRESS": 49,
+        "EMAIL": 52,
+        "NATIONAL_ID": 33,
+        "ORGANIZATION": 272,
+        "PERSON": 212,
+        "PHONE": 36,
+        "URL": 27
+      }
+    }
+  },
+  "replacement": {
+    "replacements_applied": 681,
+    "replacements_skipped": 0,
+    "runs_modified": 2478,
+    "segments_modified": 371,
+    "characters_removed": 16843,
+    "characters_inserted": 17959
+  },
+  "distinct_surrogates": 252,
+  "cleared_metadata_fields": [],
+  "integrity": {
+    "residual_original_values": 0,
+    "examples": []
+  },
+  "timings_seconds": {
+    "read": 16.472,
+    "load_model": 19.35,
+    "ner": 26.271,
+    "pass1": 3.736,
+    "pass2": 11.422,
+    "resolve": 0.025,
+    "surrogates": 0.591,
+    "write": 2.106,
+    "verify": 1.076
+  },
+  "output": "output\\Red Herring Prospectus - Redacted.docx"
+}

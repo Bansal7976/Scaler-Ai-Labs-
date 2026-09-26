@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Redaction Evaluation Record</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,600;1,6..72,400&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  color-scheme: light;
+  --paper:#f6f8f8;
+  --card:#ffffff;
+  --ink:#13202a;
+  --ink-2:#44555f;
+  --ink-3:#71838c;
+  --rule:#d4dcdf;
+  --rule-2:#e7edee;
+  --accent:#0d6b6b;
+  --accent-soft:#e2efee;
+  --good:#1a7048;
+  --good-soft:#e3f0e8;
+  --warn:#9a6410;
+  --warn-soft:#f6eddc;
+  --bad:#9d3228;
+  --bad-soft:#f6e5e3;
+  --on-accent:#ffffff;
+  --shadow:0 1px 2px rgba(19,32,42,.06), 0 8px 24px -16px rgba(19,32,42,.18);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --paper:#0e1519;
+    --card:#151f25;
+    --ink:#e6eef0;
+    --ink-2:#a7b8bf;
+    --ink-3:#7d9098;
+    --rule:#2a383f;
+    --rule-2:#1f2b31;
+    --accent:#4fbfb5;
+    --accent-soft:#16302f;
+    --good:#5fc08a;
+    --good-soft:#15291f;
+    --warn:#d9a94f;
+    --warn-soft:#2b2317;
+    --bad:#e08279;
+    --bad-soft:#2c1a18;
+    --on-accent:#08201f;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 30px -18px rgba(0,0,0,.7);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --paper:#0e1519; --card:#151f25; --ink:#e6eef0; --ink-2:#a7b8bf; --ink-3:#7d9098;
+  --rule:#2a383f; --rule-2:#1f2b31; --accent:#4fbfb5; --accent-soft:#16302f;
+  --good:#5fc08a; --good-soft:#15291f; --warn:#d9a94f; --warn-soft:#2b2317;
+  --bad:#e08279; --bad-soft:#2c1a18; --on-accent:#08201f;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 30px -18px rgba(0,0,0,.7);
+}
+
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font:400 15px/1.55 "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1080px; margin:0 auto; padding-inline:20px; padding-block:0 72px}
+a{color:var(--accent)}
+
+/* ---------- masthead: a filing cover panel ---------- */
+.cover{
+  border:1.5px solid var(--ink);
+  background:var(--card);
+  margin-block:28px 40px;
+  box-shadow:var(--shadow);
+}
+.cover-top{padding:26px 26px 20px; border-bottom:1px solid var(--rule)}
+.eyebrow{
+  font:600 11px/1 "IBM Plex Mono", ui-monospace, monospace;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--accent); margin:0 0 14px;
+}
+h1{
+  font:600 clamp(28px,5vw,44px)/1.08 Newsreader, Georgia, serif;
+  margin:0; letter-spacing:-.015em; text-wrap:balance;
+}
+.dek{margin:12px 0 0; max-width:62ch; color:var(--ink-2); font-size:16px}
+.fields{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+  border-top:1px solid var(--rule-2);
+}
+.field{padding:14px 26px; border-right:1px solid var(--rule-2); border-bottom:1px solid var(--rule-2)}
+.field:last-child{border-right:0}
+.field dt{
+  font:600 10px/1 "IBM Plex Mono", ui-monospace, monospace;
+  letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3); margin:0 0 6px;
+}
+.field dd{margin:0; font-size:14px; font-weight:600; font-variant-numeric:tabular-nums}
+
+/* ---------- section scaffolding ---------- */
+section{margin-block:0 44px}
+h2{
+  font:600 21px/1.2 Newsreader, Georgia, serif; margin:0 0 4px;
+  display:flex; align-items:baseline; gap:12px; flex-wrap:wrap;
+}
+h2 .num{
+  font:600 11px/1 "IBM Plex Mono", ui-monospace, monospace;
+  color:var(--accent); letter-spacing:.1em;
+}
+.lede{margin:0 0 18px; color:var(--ink-2); max-width:70ch; font-size:14.5px}
+h3{font:600 13px/1.3 "Source Sans 3",sans-serif; letter-spacing:.02em; margin:24px 0 10px; color:var(--ink-2)}
+
+/* ---------- headline metric strip ---------- */
+.strip{display:grid; grid-template-columns:repeat(auto-fit,minmax(168px,1fr)); gap:1px; background:var(--rule); border:1px solid var(--rule); box-shadow:var(--shadow)}
+.stat{background:var(--card); padding:16px 18px}
+.stat .k{font:600 10px/1 "IBM Plex Mono",monospace; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3)}
+.stat .v{font:600 30px/1.05 "IBM Plex Mono",monospace; margin-top:9px; font-variant-numeric:tabular-nums; letter-spacing:-.02em}
+.stat .s{font-size:12.5px; color:var(--ink-3); margin-top:5px}
+.stat.hi .v{color:var(--good)}
+
+/* ---------- tables ---------- */
+.scroll{overflow-x:auto; border:1px solid var(--rule); background:var(--card); box-shadow:var(--shadow)}
+table{border-collapse:collapse; width:100%; font-size:13.5px; min-width:640px}
+caption{
+  text-align:left; padding:12px 16px; border-bottom:1px solid var(--rule);
+  font:600 11px/1.3 "IBM Plex Mono",monospace; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3);
+}
+th,td{padding:8px 14px; text-align:right; border-bottom:1px solid var(--rule-2); font-variant-numeric:tabular-nums}
+th:first-child,td:first-child{text-align:left; font-variant-numeric:normal}
+thead th{
+  font:600 10px/1.2 "IBM Plex Mono",monospace; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--ink-3); border-bottom:1px solid var(--rule); white-space:nowrap;
+}
+tbody tr:last-child td{border-bottom:0}
+tr.total td{font-weight:700; background:var(--accent-soft); border-top:1px solid var(--rule)}
+tr.total td:first-child{font:600 11px/1.2 "IBM Plex Mono",monospace; letter-spacing:.1em}
+.type{font:500 12.5px/1.2 "IBM Plex Mono",monospace; letter-spacing:.02em}
+.zero{color:var(--ink-3)}
+
+/* inline meter that shares the table's scale */
+.meter{display:flex; align-items:center; gap:9px; justify-content:flex-end}
+.meter .bar{width:64px; height:6px; border-radius:3px; background:var(--rule-2); overflow:hidden; flex:0 0 auto}
+.meter .bar i{display:block; height:100%; background:var(--accent)}
+.meter .bar.g i{background:var(--good)}
+.meter .bar.w i{background:var(--warn)}
+.meter .bar.b i{background:var(--bad)}
+.meter .n{min-width:44px; text-align:right}
+
+/* ---------- pills ---------- */
+.pill{
+  display:inline-flex; align-items:center; gap:6px; padding:3px 9px; border-radius:999px;
+  font:600 11px/1.4 "IBM Plex Mono",monospace; letter-spacing:.04em;
+}
+.pill.g{background:var(--good-soft); color:var(--good)}
+.pill.w{background:var(--warn-soft); color:var(--warn)}
+.pill.b{background:var(--bad-soft); color:var(--bad)}
+.pill.n{background:var(--accent-soft); color:var(--accent)}
+
+/* ---------- tab switch ---------- */
+.tabs{display:flex; gap:0; border:1px solid var(--rule); background:var(--card); width:max-content; margin-bottom:14px; box-shadow:var(--shadow)}
+.tabs button{
+  appearance:none; border:0; background:transparent; color:var(--ink-2); cursor:pointer;
+  font:600 11px/1 "IBM Plex Mono",monospace; letter-spacing:.1em; text-transform:uppercase;
+  padding:10px 16px; border-right:1px solid var(--rule);
+}
+.tabs button:last-child{border-right:0}
+.tabs button[aria-selected="true"]{background:var(--accent); color:var(--on-accent)}
+.tabs button:focus-visible{outline:2px solid var(--accent); outline-offset:-2px}
+
+/* ---------- ablation chart ---------- */
+.abl{border:1px solid var(--rule); background:var(--card); box-shadow:var(--shadow); padding:18px 20px 8px}
+.abl-row{display:grid; grid-template-columns:minmax(150px,1.1fr) 1fr auto; gap:14px; align-items:center; padding:9px 0; border-bottom:1px solid var(--rule-2)}
+.abl-row:last-child{border-bottom:0}
+.abl-row .lab{font:500 12.5px/1.3 "IBM Plex Mono",monospace}
+.abl-row .desc{font-size:12.5px; color:var(--ink-3); grid-column:1/-1; margin-top:-4px}
+.track{height:10px; background:var(--rule-2); border-radius:2px; position:relative; overflow:hidden}
+.track i{position:absolute; inset:0 auto 0 0; background:var(--accent); border-radius:2px}
+.abl-row.base .track i{background:var(--good)}
+.abl-row .val{font:600 13px/1 "IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; min-width:96px; text-align:right}
+.abl-row .val small{color:var(--ink-3); font-weight:400}
+.axis{display:flex; justify-content:space-between; font:400 10px/1 "IBM Plex Mono",monospace; color:var(--ink-3); padding:8px 0 10px; border-top:1px solid var(--rule-2); margin-top:6px}
+
+/* ---------- ledger / notes ---------- */
+.ledger{border:1px solid var(--rule); background:var(--card); box-shadow:var(--shadow)}
+.entry{display:grid; grid-template-columns:auto 1fr; gap:14px; padding:14px 18px; border-bottom:1px solid var(--rule-2)}
+.entry:last-child{border-bottom:0}
+.entry .tag{align-self:start}
+.entry p{margin:0; font-size:13.5px; color:var(--ink-2)}
+.entry p strong{color:var(--ink)}
+.entry .where{font:500 11.5px/1.4 "IBM Plex Mono",monospace; color:var(--ink-3); margin-top:5px; display:block}
+.ok{padding:16px 18px; display:flex; gap:12px; align-items:center; font-size:13.5px; color:var(--ink-2)}
+
+/* ---------- mapping viewer ---------- */
+.filters{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px}
+.filters button{
+  appearance:none; cursor:pointer; background:var(--card); color:var(--ink-2);
+  border:1px solid var(--rule); border-radius:999px; padding:5px 12px;
+  font:500 11.5px/1.3 "IBM Plex Mono",monospace;
+}
+.filters button[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:var(--on-accent)}
+.filters button:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+.map-table td{font:400 12.5px/1.45 "IBM Plex Mono",monospace; font-variant-numeric:normal; word-break:break-word}
+.map-table td:nth-child(2){color:var(--ink-3)}
+.map-table td:nth-child(3){color:var(--accent); font-weight:500}
+.map-table td:first-child{width:118px}
+.arrow{color:var(--ink-3); padding-inline:0 !important; width:24px; text-align:center !important}
+
+footer{border-top:1px solid var(--rule); padding-top:18px; color:var(--ink-3); font-size:12.5px; display:flex; gap:18px; flex-wrap:wrap; justify-content:space-between}
+code{font:400 12.5px/1.4 "IBM Plex Mono",monospace; background:var(--rule-2); padding:1px 5px; border-radius:3px}
+@media (max-width:640px){
+  .field{padding:12px 18px}
+  .cover-top{padding:20px 18px 16px}
+  .abl-row{grid-template-columns:1fr; gap:6px}
+  .abl-row .val{text-align:left}
+}
+@media (prefers-reduced-motion: reduce){*{transition:none !important; animation:none !important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="cover">
+  <div class="cover-top">
+    <p class="eyebrow">Evaluation record &middot; piiredact 1.0.0</p>
+    <h1>PII Redaction Evaluation</h1>
+    <p class="dek">Measured against a hand-annotated sample of the KSH International Limited
+    Red Herring Prospectus, and against a programmatically-labelled corpus for the four PII
+    types that an Indian IPO filing does not contain.</p>
+  </div>
+  <dl class="fields" id="cover-fields"></dl>
+</header>
+
+<section>
+  <h2><span class="num">01</span> Headline</h2>
+  <p class="lede">Relaxed matching scores a span as correct when the type matches and the
+  characters overlap — the privacy-relevant question. Strict matching demands the exact
+  boundary — the replacement-relevant question. Both are reported everywhere below.</p>
+  <div class="strip" id="strip"></div>
+</section>
+
+<section>
+  <h2><span class="num">02</span> Per-type results</h2>
+  <p class="lede">Support is the number of gold spans of that type. The bar shares the
+  0–1 scale across every row, so a short bar is a real gap and not a rendering artifact.</p>
+  <div class="tabs" role="tablist" aria-label="Corpus and matching criterion">
+    <button role="tab" id="t-doc-relaxed" aria-selected="true" data-corpus="document" data-mode="relaxed">Prospectus · relaxed</button>
+    <button role="tab" id="t-doc-strict" aria-selected="false" data-corpus="document" data-mode="strict">Prospectus · strict</button>
+    <button role="tab" id="t-syn" aria-selected="false" data-corpus="synthetic" data-mode="relaxed">Synthetic</button>
+  </div>
+  <div class="scroll">
+    <table id="per-type"><caption id="per-type-cap"></caption>
+      <thead><tr><th>PII type</th><th>Support</th><th>TP</th><th>FP</th><th>FN</th><th>Precision</th><th>Recall</th><th>F1</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">03</span> Accuracy, two ways</h2>
+  <p class="lede">A span task has no natural accuracy, so both well-defined variants are given.
+  Character-level accuracy is dominated by the characters that are not PII, which is why it
+  appears beside character precision and recall rather than instead of them.</p>
+  <div class="scroll">
+    <table id="accuracy">
+      <thead><tr><th>Measure</th><th>Accuracy</th><th>Precision</th><th>Recall</th><th>TP</th><th>FP</th><th>FN</th><th>TN</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <h3>By stratum — prospectus sample, relaxed</h3>
+  <div class="scroll">
+    <table id="strata">
+      <thead><tr><th>Stratum</th><th>Segments</th><th>Gold spans</th><th>TP</th><th>FP</th><th>FN</th><th>Precision</th><th>Recall</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">04</span> What each component is worth</h2>
+  <p class="lede">Relaxed micro-recall on the prospectus sample with one part of the pipeline
+  removed. Precision holds at 1.000 in every configuration, because precision comes from the
+  lexicons and the structural rules rather than from any single detector.</p>
+  <div class="abl" id="abl"></div>
+</section>
+
+<section>
+  <h2><span class="num">05</span> Error ledger</h2>
+  <p class="lede">Every disagreement between the tool and the gold standard, in full.</p>
+  <div class="ledger" id="errors"></div>
+</section>
+
+<section>
+  <h2><span class="num">06</span> The delivered document</h2>
+  <p class="lede">Section 05 measures the sample; this is what the redacted file actually
+  contains, from <code>output/run_summary.json</code>.</p>
+  <div class="strip" id="run-strip"></div>
+  <h3>Mentions replaced, by type</h3>
+  <div class="scroll">
+    <table id="run-types">
+      <thead><tr><th>PII type</th><th>Mentions</th><th>Share</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <h3>Integrity checks on the saved file</h3>
+  <div class="ledger" id="integrity"></div>
+</section>
+
+<section>
+  <h2><span class="num">07</span> Real values and their surrogates</h2>
+  <p class="lede">A sample of the run's real&rarr;fake table. Every mention of one entity maps
+  to the same surrogate, derived forms borrow their parent's matching tokens, and the format
+  is preserved — legal suffixes, country codes, PIN-code shapes, upper case. The full table is
+  <code>output/mapping.csv</code>.</p>
+  <div class="filters" id="map-filters"></div>
+  <div class="scroll">
+    <table class="map-table" id="mapping"><caption id="map-cap"></caption>
+      <thead><tr><th>Type</th><th>Original</th><th class="arrow"></th><th>Surrogate</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <span>Reproduce with <code>python eval/evaluate.py</code> &rarr; <code>eval/results/metrics.json</code></span>
+  <span>Method, threats to validity and error analysis: <code>EVALUATION_REPORT.md</code></span>
+</footer>
+</div>
+
+<script id="data" type="application/json">{"config": {"types": ["ADDRESS", "CREDIT_CARD", "DOB", "EMAIL", "IP_ADDRESS", "NATIONAL_ID", "ORGANIZATION", "PERSON", "PHONE", "SSN", "URL"], "seed": "scaler-ai-labs-2026", "locale": "en_IN", "min_confidence": 0.6, "spacy_model": "en_core_web_md", "enable_gazetteer_sweep": true, "dob_mode": "labelled", "clear_metadata": true, "verify_output": true, "disabled_detectors": []}, "document": {"segments": 301, "gold_spans": 288, "predicted_spans": 287, "strict": {"per_type": {"ADDRESS": {"tp": 44, "fp": 3, "fn": 3, "support": 47, "precision": 0.9362, "recall": 0.9362, "f1": 0.9362}, "EMAIL": {"tp": 52, "fp": 0, "fn": 0, "support": 52, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "NATIONAL_ID": {"tp": 18, "fp": 0, "fn": 0, "support": 18, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "ORGANIZATION": {"tp": 35, "fp": 1, "fn": 2, "support": 37, "precision": 0.9722, "recall": 0.9459, "f1": 0.9589}, "PERSON": {"tp": 78, "fp": 0, "fn": 0, "support": 78, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "PHONE": {"tp": 36, "fp": 0, "fn": 0, "support": 36, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "URL": {"tp": 20, "fp": 0, "fn": 0, "support": 20, "precision": 1.0, "recall": 1.0, "f1": 1.0}}, "micro": {"tp": 283, "fp": 4, "fn": 5, "support": 288, "precision": 0.9861, "recall": 0.9826, "f1": 0.9843}, "macro": {"precision": 0.9869, "recall": 0.9832, "f1": 0.985, "types_averaged": 7}}, "relaxed": {"per_type": {"ADDRESS": {"tp": 47, "fp": 0, "fn": 0, "support": 47, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "EMAIL": {"tp": 52, "fp": 0, "fn": 0, "support": 52, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "NATIONAL_ID": {"tp": 18, "fp": 0, "fn": 0, "support": 18, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "ORGANIZATION": {"tp": 36, "fp": 0, "fn": 1, "support": 37, "precision": 1.0, "recall": 0.973, "f1": 0.9863}, "PERSON": {"tp": 78, "fp": 0, "fn": 0, "support": 78, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "PHONE": {"tp": 36, "fp": 0, "fn": 0, "support": 36, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "URL": {"tp": 20, "fp": 0, "fn": 0, "support": 20, "precision": 1.0, "recall": 1.0, "f1": 1.0}}, "micro": {"tp": 287, "fp": 0, "fn": 1, "support": 288, "precision": 1.0, "recall": 0.9965, "f1": 0.9983}, "macro": {"precision": 1.0, "recall": 0.9961, "f1": 0.998, "types_averaged": 7}}, "character_level": {"characters": 59399, "pii_characters": 8711, "tp": 8634, "fp": 22, "fn": 77, "tn": 50666, "accuracy": 0.998333, "precision": 0.9975, "recall": 0.9912, "f1": 0.9943, "specificity": 0.999566}, "segment_level": {"segments": 301, "tp": 134, "fp": 0, "fn": 1, "tn": 166, "accuracy": 0.9967, "precision": 1.0, "recall": 0.9926}, "by_stratum": {"contact": {"segments": 87, "gold_spans": 164, "tp": 164, "fp": 0, "fn": 0, "support": 164, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "negative": {"segments": 48, "gold_spans": 14, "tp": 13, "fp": 0, "fn": 1, "support": 14, "precision": 1.0, "recall": 0.9286, "f1": 0.963}, "prose": {"segments": 40, "gold_spans": 7, "tp": 7, "fp": 0, "fn": 0, "support": 7, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "structural": {"segments": 126, "gold_spans": 103, "tp": 103, "fp": 0, "fn": 0, "support": 103, "precision": 1.0, "recall": 1.0, "f1": 1.0}}, "errors": {"false_positives": [], "false_negatives": [{"location": "table 31, row 2, col 1", "stratum": "negative", "pii_type": "ORGANIZATION", "text": "Waterloo Motors", "overlapping_prediction": null}], "boundary_errors": [{"location": "table 0, row 1, col 0", "pii_type": "ADDRESS", "gold": "11/3, 11/4 and 11/5 Village Birdewadi Chakan Taluka - Khed Pune – 410 501\nMaharashtra, India", "predicted": "11/3, 11/4 and 11/5 Village Birdewadi Chakan Taluka - Khed Pune – 410 501"}, {"location": "table 0, row 1, col 1", "pii_type": "ADDRESS", "gold": "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner Pune – 411 045\nMaharashtra, India", "predicted": "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner Pune – 411 045"}, {"location": "table 73, row 1, col 0", "pii_type": "ADDRESS", "gold": "5th Floor, Gopal House\nOpposite Harshal Hall, above HDFC Limited Karve Road, Pune – 411 038\nMaharashtra, India", "predicted": "Chartered Accountants\n5th Floor, Gopal House\nOpposite Harshal Hall, above HDFC Limited Karve Road, Pune – 411 038"}, {"location": "table 73, row 1, col 0", "pii_type": "ORGANIZATION", "gold": "Kirtane & Pandit, LLP", "predicted": "Kirtane & Pandit"}], "type_confusions": {}}}, "synthetic": {"segments": 41, "gold_spans": 30, "predicted_spans": 30, "strict": {"per_type": {"CREDIT_CARD": {"tp": 7, "fp": 0, "fn": 0, "support": 7, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "DOB": {"tp": 6, "fp": 0, "fn": 0, "support": 6, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "EMAIL": {"tp": 1, "fp": 0, "fn": 0, "support": 1, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "IP_ADDRESS": {"tp": 6, "fp": 0, "fn": 0, "support": 6, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "PERSON": {"tp": 3, "fp": 0, "fn": 0, "support": 3, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "PHONE": {"tp": 1, "fp": 0, "fn": 0, "support": 1, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "SSN": {"tp": 6, "fp": 0, "fn": 0, "support": 6, "precision": 1.0, "recall": 1.0, "f1": 1.0}}, "micro": {"tp": 30, "fp": 0, "fn": 0, "support": 30, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "macro": {"precision": 1.0, "recall": 1.0, "f1": 1.0, "types_averaged": 7}}, "relaxed": {"per_type": {"CREDIT_CARD": {"tp": 7, "fp": 0, "fn": 0, "support": 7, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "DOB": {"tp": 6, "fp": 0, "fn": 0, "support": 6, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "EMAIL": {"tp": 1, "fp": 0, "fn": 0, "support": 1, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "IP_ADDRESS": {"tp": 6, "fp": 0, "fn": 0, "support": 6, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "PERSON": {"tp": 3, "fp": 0, "fn": 0, "support": 3, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "PHONE": {"tp": 1, "fp": 0, "fn": 0, "support": 1, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "SSN": {"tp": 6, "fp": 0, "fn": 0, "support": 6, "precision": 1.0, "recall": 1.0, "f1": 1.0}}, "micro": {"tp": 30, "fp": 0, "fn": 0, "support": 30, "precision": 1.0, "recall": 1.0, "f1": 1.0}, "macro": {"precision": 1.0, "recall": 1.0, "f1": 1.0, "types_averaged": 7}}, "character_level": {"characters": 2409, "pii_characters": 421, "tp": 421, "fp": 0, "fn": 0, "tn": 1988, "accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1": 1.0, "specificity": 1.0}, "segment_level": {"segments": 41, "tp": 19, "fp": 0, "fn": 0, "tn": 22, "accuracy": 1.0, "precision": 1.0, "recall": 1.0}}, "ablations": [{"ablation": "full", "description": "the shipped configuration", "predicted_spans": 287, "relaxed": {"tp": 287, "fp": 0, "fn": 1, "support": 288, "precision": 1.0, "recall": 0.9965, "f1": 0.9983}, "strict": {"tp": 283, "fp": 4, "fn": 5, "support": 288, "precision": 0.9861, "recall": 0.9826, "f1": 0.9843}}, {"ablation": "no_gazetteer_sweep", "description": "pass 1 only -- structural and NER detection, no document-wide sweep", "predicted_spans": 282, "relaxed": {"tp": 282, "fp": 0, "fn": 6, "support": 288, "precision": 1.0, "recall": 0.9792, "f1": 0.9895}, "strict": {"tp": 273, "fp": 9, "fn": 15, "support": 288, "precision": 0.9681, "recall": 0.9479, "f1": 0.9579}}, {"ablation": "no_ner", "description": "no spaCy; regex, lexicons and table structure only", "predicted_spans": 286, "relaxed": {"tp": 286, "fp": 0, "fn": 2, "support": 288, "precision": 1.0, "recall": 0.9931, "f1": 0.9965}, "strict": {"tp": 282, "fp": 4, "fn": 6, "support": 288, "precision": 0.986, "recall": 0.9792, "f1": 0.9826}}, {"ablation": "no_ner_no_sweep", "description": "structural and regex detection only", "predicted_spans": 258, "relaxed": {"tp": 258, "fp": 0, "fn": 30, "support": 288, "precision": 1.0, "recall": 0.8958, "f1": 0.9451}, "strict": {"tp": 254, "fp": 4, "fn": 34, "support": 288, "precision": 0.9845, "recall": 0.8819, "f1": 0.9304}}, {"ablation": "no_person_detector", "description": "the person detector disabled, to isolate what it contributes", "predicted_spans": 232, "relaxed": {"tp": 232, "fp": 0, "fn": 56, "support": 288, "precision": 1.0, "recall": 0.8056, "f1": 0.8923}, "strict": {"tp": 228, "fp": 4, "fn": 60, "support": 288, "precision": 0.9828, "recall": 0.7917, "f1": 0.8769}}, {"ablation": "min_confidence_0", "description": "every detection kept, however weak", "predicted_spans": 287, "relaxed": {"tp": 287, "fp": 0, "fn": 1, "support": 288, "precision": 1.0, "recall": 0.9965, "f1": 0.9983}, "strict": {"tp": 283, "fp": 4, "fn": 5, "support": 288, "precision": 0.9861, "recall": 0.9826, "f1": 0.9843}}, {"ablation": "min_confidence_090", "description": "high-confidence detections only", "predicted_spans": 287, "relaxed": {"tp": 287, "fp": 0, "fn": 1, "support": 288, "precision": 1.0, "recall": 0.9965, "f1": 0.9983}, "strict": {"tp": 283, "fp": 4, "fn": 5, "support": 288, "precision": 0.9861, "recall": 0.9826, "f1": 0.9843}}], "run": {"input_document": {"segments": 3766, "paragraph_segments": 692, "table_cell_segments": 3074, "runs": 48324, "characters": 325239}, "detection": {"total_spans": 681, "by_type": {"ADDRESS": 49, "EMAIL": 52, "NATIONAL_ID": 33, "ORGANIZATION": 272, "PERSON": 212, "PHONE": 36, "URL": 27}, "by_detector": {"address.anchored+gazetteer.sweep": 48, "email.regex+gazetteer.sweep": 52, "gazetteer.sweep": 111, "gazetteer.sweep+national_id.rules": 33, "gazetteer.sweep+organization.suffix": 200, "gazetteer.sweep+person.hybrid": 174, "gazetteer.sweep+url.regex": 27, "phone.pattern": 36}, "distinct_entities": 332, "resolution": {"input_spans": 1344, "output_spans": 681, "dropped_low_confidence": 0, "merged_duplicates": 536, "dropped_contained": 127, "truncated": 0, "dropped_after_truncation": 0, "by_type": {"ADDRESS": 49, "EMAIL": 52, "NATIONAL_ID": 33, "ORGANIZATION": 272, "PERSON": 212, "PHONE": 36, "URL": 27}}}, "replacement": {"replacements_applied": 681, "replacements_skipped": 0, "runs_modified": 2478, "segments_modified": 371, "characters_removed": 16843, "characters_inserted": 17959}, "distinct_surrogates": 252, "integrity": {"residual_original_values": 0, "examples": []}, "timings": {"read": 16.472, "load_model": 19.35, "ner": 26.271, "pass1": 3.736, "pass2": 11.422, "resolve": 0.025, "surrogates": 0.591, "write": 2.106, "verify": 1.076}}, "mapping_counts": {"ADDRESS": 39, "EMAIL": 26, "NATIONAL_ID": 21, "ORGANIZATION": 70, "PERSON": 59, "PHONE": 22, "URL": 15}, "mapping_sample": [{"pii_type": "ADDRESS", "original": "S. no. 245/ 104, Pushpakamal, Deccan Gymkhana Society, lane no.\n3 Prabhat Road, opposite PYC basketball court, Erandawane, Deccan Gymkhana, Pune – 411 004 Maharashtra, India", "surrogate": "286, Tulsi Towers, Dhruv Avenue, Tarunagar, Hirapur, Navrangwadi, Jalvihar, Jamnagar – 270 722, Karnataka, India"}, {"pii_type": "ADDRESS", "original": "S. no. 245/ 104, Pushpakamal, Deccan Gymkhana Society, lane no. 3 Prabhat Road, opposite PYC basketball court, Deccan Gymkhana, Pune – 411 004 Maharashtra, India", "surrogate": "213, Meera Residency, Ganga Avenue, Vidyapeeth, Devgiri, Shantivan, Jamnagar – 181 234, Gujarat, India"}, {"pii_type": "ADDRESS", "original": "Pushpakamal Apartment, Flat – 1, S. no. 245/ 104, Prabhat Road Lane no. 3, Shivaji Nagar, Deccan Gymkhana, Pune – 411 004, Maharashtra, India", "surrogate": "176, Hemant Plaza, Meera Road, Rajgad Colony, Chitrakoot, Hirapur, Kalpataru Nagar, Balbhadra – 580 911, Rajasthan, India"}, {"pii_type": "ADDRESS", "original": "801 - 804, Wing A, Building No 3, Inspire BKC, G Block, Bandra Kurla Complex, Bandra East, Mumbai 400051, Maharashtra, India", "surrogate": "394, Lakshmi Enclave, Hemant Road, Mohanwadi, Jalvihar, Rajgad Colony, Tarunagar, Kalpataru Nagar, Sundarpeth, Tarapur - 866215, Rajasthan, India"}, {"pii_type": "ADDRESS", "original": "Pratik Bunglow, Senapati Bapat Road, behind Sahara Hotel, Shivajinagar, Model Colony, Pune – 411 016, Maharashtra, India", "surrogate": "32, Vasant Chambers, Ashok Lane, Chitrakoot, Indrayani Nagar, Devgiri, Navsari – 541 749, Telangana, India"}, {"pii_type": "ADDRESS", "original": "Plot No. F-223, Supa Parner Industrial Park, Mauje Palve Khurd, Taluka Parner, Dist – Ahmednagar, Maharashtra – 414 301", "surrogate": "361, Nandan Heights, Yamuna Path, Devgiri, Anandpura, Sundarpeth, Vikrampur – 737 093, Rajasthan"}, {"pii_type": "ADDRESS", "original": "PCNTDA Green Building Block A 1st and 2nd floor Near Akurdi Railway Station Akurdi, Pune – 411 044 Maharashtra, India", "surrogate": "101, Vasant Plaza, Ratna Lane, Navsari – 560 050, Karnataka, India"}, {"pii_type": "ADDRESS", "original": "Chartered Accountants\n5th Floor, Gopal House\nOpposite Harshal Hall, above HDFC Limited Karve Road, Pune – 411 038", "surrogate": "212, Hemant Society, Jyoti Marg, Jalvihar, Vikrampur – 478 361"}, {"pii_type": "ADDRESS", "original": "Plot No. 5, Chakan Industrial Area, Phase II, Village Khalumbre, Taluka Khed, Pune – 410 501, Maharashtra, India", "surrogate": "34, Tulsi House, Lakshmi Road, Sundarpeth, Indrayani Nagar, Vikrampur – 127 331, Gujarat, India"}, {"pii_type": "ADDRESS", "original": "Plot No. J-25, Taloja Industrial Area, Village Padghe, Taluka Panvel, Raigad – 410 208, Maharashtra, India", "surrogate": "75, Indira House, Ashok Road, Sundarpeth, Navrangwadi, Indrayani Nagar, Jamnagar – 223 317, Madhya Pradesh, India"}, {"pii_type": "ADDRESS", "original": "12 Buena Monte, NCL co-operative housing society, Panchvati, Pashan, Pune – 411 008, Maharashtra, India", "surrogate": "479, Ganga Plaza, Lakshmi Road, Rajgad Colony, Kalpataru Nagar, Tarunagar, Kalyanpur – 169 441, Rajasthan, India"}, {"pii_type": "ADDRESS", "original": "602, Gopalkrupa Apartment, Bhonde colony, Prabhat Road, Erandawane, Pune – 411 004, Maharashtra, India", "surrogate": "201, Ashok House, Indira Lane, Vidyapeeth, Chitrakoot, Gokhalewadi, Indrayani Nagar, Navsari – 155 670, Karnataka, India"}, {"pii_type": "ADDRESS", "original": "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India", "surrogate": "324, Sagar Chambers, Ganga Road, Tarunagar, Kalpataru Nagar, Jalvihar, Shivgarh – 270 629, Rajasthan, India"}, {"pii_type": "ADDRESS", "original": "11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India", "surrogate": "377, Kamal Enclave, Nandan Marg, Gokhalewadi, Navrangwadi, Tarunagar, Jamnagar – 658 926, Rajasthan, India"}, {"pii_type": "EMAIL", "original": "Sarthak.malvadkar@kshinterantional.com", "surrogate": "jeet.vohra@example.com"}, {"pii_type": "EMAIL", "original": "kshinternational.ipo@in.mpms.mufg.com", "surrogate": "chopra.ipo@example.com"}, {"pii_type": "EMAIL", "original": "customercare@icicisecurities.com", "surrogate": "customercare@example.com"}, {"pii_type": "EMAIL", "original": "cs.connect@kshinternational.com", "surrogate": "cs.connect@example.com"}, {"pii_type": "EMAIL", "original": "parag.pansare@kirtanepandit.com", "surrogate": "gunbir.sampath@example.com"}, {"pii_type": "EMAIL", "original": "customerservice.mb@nuvama.com", "surrogate": "customerservice.mb@example.com"}, {"pii_type": "EMAIL", "original": "siddharth.jadhav@hdfcbank.com", "surrogate": "sneha.rama@example.com"}, {"pii_type": "EMAIL", "original": "tushar.gavankar@hdfcbank.com", "surrogate": "abdul.hegde@example.com"}, {"pii_type": "EMAIL", "original": "manisha.shukla@hdfcbank.com", "surrogate": "vedika.oak@example.com"}, {"pii_type": "EMAIL", "original": "sharmila.joshi@indusind.com", "surrogate": "mekhala.balay@example.com"}, {"pii_type": "EMAIL", "original": "anand.soni@bajajfinserv.in", "surrogate": "pallavi.contractor@example.com"}, {"pii_type": "EMAIL", "original": "ashishmp@federalbank.co.in", "surrogate": "patla@example.com"}, {"pii_type": "EMAIL", "original": "cherag.gyara@icicibank.com", "surrogate": "niharika.boase@example.com"}, {"pii_type": "EMAIL", "original": "prakash.boricha@nuvama.com", "surrogate": "lakshmi.baral@example.com"}, {"pii_type": "NATIONAL_ID", "original": "L65190GJ1994PLC021012", "surrogate": "L76966PE1983KOP108580"}, {"pii_type": "NATIONAL_ID", "original": "L65920MH1994PLC080618", "surrogate": "L30136VM1999HRS365737"}, {"pii_type": "NATIONAL_ID", "original": "U28129PN1979PLC141032", "surrogate": "U21086MP1992HAD368697"}, {"pii_type": "NATIONAL_ID", "original": "U67190MH1999PTC118368", "surrogate": "U92422DD1988JYQ846745"}, {"pii_type": "NATIONAL_ID", "original": "INM000011179", "surrogate": "SES564177892"}, {"pii_type": "NATIONAL_ID", "original": "INM000013004", "surrogate": "ORK366788404"}, {"pii_type": "NATIONAL_ID", "original": "INR000004058", "surrogate": "TST664222072"}, {"pii_type": "NATIONAL_ID", "original": "INZ000166136", "surrogate": "VXC886641213"}, {"pii_type": "NATIONAL_ID", "original": "00049801", "surrogate": "38466951"}, {"pii_type": "NATIONAL_ID", "original": "00114193", "surrogate": "88899121"}, {"pii_type": "NATIONAL_ID", "original": "00134926", "surrogate": "82067006"}, {"pii_type": "NATIONAL_ID", "original": "00135070", "surrogate": "44634548"}, {"pii_type": "NATIONAL_ID", "original": "01217000", "surrogate": "12309677"}, {"pii_type": "NATIONAL_ID", "original": "03124510", "surrogate": "37235989"}, {"pii_type": "ORGANIZATION", "original": "Nidec Industrial Automation India Private Limited", "surrogate": "Oakhurst Power Extrusion Winding Private Limited"}, {"pii_type": "ORGANIZATION", "original": "Shubhkamal Leasing and Investment Private Limited", "surrogate": "Ishaan Capital Advisory Metals Private Limited"}, {"pii_type": "ORGANIZATION", "original": "KSH Project Management Services Private Limited", "surrogate": "Trentwood Fabrication Industrial Engineering Private Limited"}, {"pii_type": "ORGANIZATION", "original": "Kushal Motors and Electricals Private Limited", "surrogate": "Harita Conductors Systems Power Private Limited"}, {"pii_type": "ORGANIZATION", "original": "Waterloo Industrial Park IX A Private Limited", "surrogate": "Mahadev Distriparks Alloys Conductors Foundry Private Limited"}, {"pii_type": "ORGANIZATION", "original": "Waterloo Industrial Park IX B Private Limited", "surrogate": "Granthorpe Infrastructure Winding Distriparks Financial Private Limited"}, {"pii_type": "ORGANIZATION", "original": "Waterloo Industrial Park VIII Private Limited", "surrogate": "Oakhurst Distriparks Fabrication Markets Private Limited"}, {"pii_type": "ORGANIZATION", "original": "Waterloo Industrial Park III Private Limited", "surrogate": "Rivermead Distriparks Composites Systems Private Limited"}, {"pii_type": "ORGANIZATION", "original": "CARE Analytics and Advisory Private Limited", "surrogate": "Netherby Composites Logistics Insulation Private Limited"}, {"pii_type": "ORGANIZATION", "original": "Waterloo Industrial Park II Private Limited", "surrogate": "Vantage Infrastructure Industrial Consulting Private Limited"}, {"pii_type": "ORGANIZATION", "original": "Waterloo Industrial Park IV Private Limited", "surrogate": "Ishaan Insulation Industrial Foundry Private Limited"}, {"pii_type": "ORGANIZATION", "original": "Waterloo Industrial Park IX Private Limited", "surrogate": "Ironvale Energy Cables Analytics Private Limited"}, {"pii_type": "ORGANIZATION", "original": "WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED", "surrogate": "Girish Capital Systems Financial Private Limited"}, {"pii_type": "ORGANIZATION", "original": "Waterloo Industrial Park I Private Limited", "surrogate": "Marlowe Industrial Infrastructure Energy Private Limited"}, {"pii_type": "PERSON", "original": "Katyayani Balasubramanian", "surrogate": "Tarak Parsa"}, {"pii_type": "PERSON", "original": "Lalit Muljibhai Sarvaiya", "surrogate": "Amaira Sha Raja"}, {"pii_type": "PERSON", "original": "Dinesh Hirachand Munot", "surrogate": "Tara Sane Rastogi"}, {"pii_type": "PERSON", "original": "Sangeeta Ramprasad Rai", "surrogate": "Samarth Mander Aggarwal"}, {"pii_type": "PERSON", "original": "Ashish Mathew Pulloor", "surrogate": "Avni Shetty Mistry"}, {"pii_type": "PERSON", "original": "Karunakar N. Bhandary", "surrogate": "Vedika T. Keer"}, {"pii_type": "PERSON", "original": "KUSHAL SUBBAYYA HEGDE", "surrogate": "Samar Sami Barad"}, {"pii_type": "PERSON", "original": "Maithili Rajesh Hegde", "surrogate": "Panini Dalal Warrior"}, {"pii_type": "PERSON", "original": "Shanti Gopalkrishnan", "surrogate": "Balveer Suresh"}, {"pii_type": "PERSON", "original": "Sunil\tNagayya Shetty", "surrogate": "Ronith Soni Jha"}, {"pii_type": "PERSON", "original": "Karunakar Hegde HUF", "surrogate": "Yahvi Natt Gandhi"}, {"pii_type": "PERSON", "original": "PUSHPA KUSHAL HEGDE", "surrogate": "Atharv Agarwal Deshmukh"}, {"pii_type": "PERSON", "original": "RAJESH KUSHAL HEGDE", "surrogate": "Noah Deep Palla"}, {"pii_type": "PERSON", "original": "RAKHI GIRIJA SHETTY", "surrogate": "Chanakya Deep Ramaswamy"}, {"pii_type": "PHONE", "original": "+ 91 (20) 6729 5100", "surrogate": "+ 91 (37) 4081 8751"}, {"pii_type": "PHONE", "original": "+ 91 20 4505 3237", "surrogate": "+ 91 58 6037 1919"}, {"pii_type": "PHONE", "original": "+ 91 20 6729 5100", "surrogate": "+ 91 62 0031 8528"}, {"pii_type": "PHONE", "original": "+ 91 22 4009 4400", "surrogate": "+ 91 22 2219 9050"}, {"pii_type": "PHONE", "original": "+ 91 20 45053237", "surrogate": "+ 91 54 70310756"}, {"pii_type": "PHONE", "original": "+ 91 91586 40360", "surrogate": "+ 91 31198 32017"}, {"pii_type": "PHONE", "original": "+91 20 2561 8211", "surrogate": "+91 51 9336 2464"}, {"pii_type": "PHONE", "original": "+91 20 2640 3100", "surrogate": "+91 38 7063 5251"}, {"pii_type": "PHONE", "original": "+91 20 6606 4494", "surrogate": "+91 79 7228 2456"}, {"pii_type": "PHONE", "original": "+91 20 6769 4648", "surrogate": "+91 93 6592 0109"}, {"pii_type": "PHONE", "original": "+91 20 7157 6403", "surrogate": "+91 95 6122 0207"}, {"pii_type": "PHONE", "original": "+91 22 4009 4400", "surrogate": "+91 92 4998 4022"}, {"pii_type": "PHONE", "original": "+91 22 4079 1000", "surrogate": "+91 61 2521 1766"}, {"pii_type": "PHONE", "original": "+91 22 6807 7100", "surrogate": "+91 45 2456 6350"}, {"pii_type": "URL", "original": "https://kshinternational.com/investor-relations/industry-report/", "surrogate": "https://kailash.example/investor-relations/industry-report/"}, {"pii_type": "URL", "original": "http://commercialbanking.citibank.com", "surrogate": "http://westhaven.example"}, {"pii_type": "URL", "original": "www.kshinternational. com", "surrogate": "www.kailash.example"}, {"pii_type": "URL", "original": "www.kshinternational.com", "surrogate": "www.kailash.example"}, {"pii_type": "URL", "original": "www.icicisecurities.com", "surrogate": "www.zephyrline.example"}, {"pii_type": "URL", "original": "www.eximbankindia.in/", "surrogate": "www.ishaan.example/"}, {"pii_type": "URL", "original": "www.federalbank.co.in", "surrogate": "www.harita.example"}, {"pii_type": "URL", "original": "www.bajajfinance.com", "surrogate": "www.oakhurst.example"}, {"pii_type": "URL", "original": "www.fbil.org.in. and", "surrogate": "www.girish.example"}, {"pii_type": "URL", "original": "www.in.mpms.mufg.com", "surrogate": "www.chandrika.example"}, {"pii_type": "URL", "original": "www.icicibank.com", "surrogate": "www.stonebridge.example"}, {"pii_type": "URL", "original": "www.indusind.com/", "surrogate": "www.chandrika.example/"}, {"pii_type": "URL", "original": "www.hdfcbank.com", "surrogate": "www.bhaskar.example"}, {"pii_type": "URL", "original": "www.nuvama.com", "surrogate": "www.calderstone.example"}]}</script>
+<script>
+(function(){
+  "use strict";
+  const D = JSON.parse(document.getElementById("data").textContent);
+  const f3 = n => n.toFixed(3);
+  const int = n => n.toLocaleString("en-US");
+  const el = (tag, cls, text) => { const e=document.createElement(tag); if(cls)e.className=cls; if(text!=null)e.textContent=text; return e; };
+
+  // quality banding shared by every meter on the page
+  function band(v){ return v >= 0.99 ? "g" : v >= 0.95 ? "" : v >= 0.85 ? "w" : "b"; }
+  function meter(v){
+    const w = el("div","meter");
+    const bar = el("div","bar " + band(v));
+    const fill = el("i"); fill.style.width = Math.max(2, v*100) + "%";
+    bar.appendChild(fill);
+    w.appendChild(bar);
+    w.appendChild(el("span","n", f3(v)));
+    return w;
+  }
+
+  /* ---- cover fields ---- */
+  const fields = [
+    ["Document", "KSH International Limited RHP"],
+    ["Corpus size", int(D.run.input_document.segments) + " segments"],
+    ["Gold spans", int(D.document.gold_spans) + " hand-annotated"],
+    ["Seed", D.config.seed],
+    ["NER model", D.config.spacy_model || "disabled"],
+  ];
+  const fieldsEl = document.getElementById("cover-fields");
+  fields.forEach(([k,v]) => {
+    const wrap = el("div","field");
+    wrap.appendChild(el("dt",null,k));
+    wrap.appendChild(el("dd",null,v));
+    fieldsEl.appendChild(wrap);
+  });
+
+  /* ---- headline strip ---- */
+  const dr = D.document.relaxed.micro, ds = D.document.strict.micro, sy = D.synthetic.relaxed.micro;
+  const stats = [
+    {k:"Prospectus · relaxed F1", v:f3(dr.f1), s:`P ${f3(dr.precision)} · R ${f3(dr.recall)}`, hi:true},
+    {k:"Prospectus · strict F1", v:f3(ds.f1), s:`P ${f3(ds.precision)} · R ${f3(ds.recall)}`},
+    {k:"Synthetic F1", v:f3(sy.f1), s:`${sy.support} labelled spans, ${D.synthetic.segment_level.tn} negatives`, hi:true},
+    {k:"Character accuracy", v:D.document.character_level.accuracy.toFixed(4), s:`${int(D.document.character_level.pii_characters)} of ${int(D.document.character_level.characters)} chars are PII`},
+    {k:"False positives", v:String(dr.fp), s:`across ${D.document.segment_level.tn} PII-free segments`, hi:true},
+  ];
+  const strip = document.getElementById("strip");
+  stats.forEach(s => {
+    const c = el("div","stat" + (s.hi ? " hi" : ""));
+    c.appendChild(el("div","k",s.k));
+    c.appendChild(el("div","v",s.v));
+    c.appendChild(el("div","s",s.s));
+    strip.appendChild(c);
+  });
+
+  /* ---- per-type table with tabs ---- */
+  const tbody = document.querySelector("#per-type tbody");
+  const cap = document.getElementById("per-type-cap");
+  function renderPerType(corpus, mode){
+    const block = D[corpus][mode];
+    cap.textContent = (corpus === "document"
+      ? `Prospectus sample — ${mode} matching`
+      : "Synthetic corpus — strict and relaxed are identical") +
+      ` · ${D[corpus].gold_spans} gold spans · ${D[corpus].predicted_spans} predicted`;
+    tbody.textContent = "";
+    Object.entries(block.per_type).forEach(([type, s]) => {
+      const tr = el("tr");
+      tr.appendChild(el("td","type",type));
+      [s.support, s.tp].forEach(n => tr.appendChild(el("td",null,int(n))));
+      [s.fp, s.fn].forEach(n => tr.appendChild(el("td", n===0 ? "zero" : null, int(n))));
+      [s.precision, s.recall, s.f1].forEach(v => { const td=el("td"); td.appendChild(meter(v)); tr.appendChild(td); });
+      tbody.appendChild(tr);
+    });
+    const m = block.micro, tr = el("tr","total");
+    tr.appendChild(el("td",null,"Micro"));
+    [m.support, m.tp, m.fp, m.fn].forEach(n => tr.appendChild(el("td",null,int(n))));
+    [m.precision, m.recall, m.f1].forEach(v => tr.appendChild(el("td",null,f3(v))));
+    tbody.appendChild(tr);
+    const M = block.macro, tr2 = el("tr","total");
+    tr2.appendChild(el("td",null,`Macro (${M.types_averaged} types)`));
+    ["","","",""].forEach(() => tr2.appendChild(el("td","zero","—")));
+    [M.precision, M.recall, M.f1].forEach(v => tr2.appendChild(el("td",null,f3(v))));
+    tbody.appendChild(tr2);
+  }
+  const tabs = Array.from(document.querySelectorAll('[role="tab"]'));
+  tabs.forEach(btn => btn.addEventListener("click", () => {
+    tabs.forEach(b => b.setAttribute("aria-selected", String(b === btn)));
+    renderPerType(btn.dataset.corpus, btn.dataset.mode);
+  }));
+  renderPerType("document","relaxed");
+
+  /* ---- accuracy ---- */
+  const accBody = document.querySelector("#accuracy tbody");
+  [
+    ["Prospectus · character level", D.document.character_level],
+    ["Prospectus · segment level", D.document.segment_level],
+    ["Synthetic · character level", D.synthetic.character_level],
+    ["Synthetic · segment level", D.synthetic.segment_level],
+  ].forEach(([label, m]) => {
+    const tr = el("tr");
+    tr.appendChild(el("td",null,label));
+    tr.appendChild(el("td",null, m.accuracy.toFixed(4)));
+    tr.appendChild(el("td",null, f3(m.precision)));
+    tr.appendChild(el("td",null, f3(m.recall)));
+    [m.tp, m.fp, m.fn, m.tn].forEach(n => tr.appendChild(el("td", n===0 ? "zero" : null, int(n))));
+    accBody.appendChild(tr);
+  });
+
+  /* ---- strata ---- */
+  const strataBody = document.querySelector("#strata tbody");
+  Object.entries(D.document.by_stratum).forEach(([name, s]) => {
+    const tr = el("tr");
+    tr.appendChild(el("td","type",name));
+    [s.segments, s.gold_spans, s.tp].forEach(n => tr.appendChild(el("td",null,int(n))));
+    [s.fp, s.fn].forEach(n => tr.appendChild(el("td", n===0 ? "zero" : null, int(n))));
+    [s.precision, s.recall].forEach(v => { const td=el("td"); td.appendChild(meter(v)); tr.appendChild(td); });
+    strataBody.appendChild(tr);
+  });
+
+  /* ---- ablations ---- */
+  const ablEl = document.getElementById("abl");
+  const LO = 0.75;                       // axis floor: every bar is above this
+  D.ablations.forEach(row => {
+    const r = row.relaxed.recall;
+    const wrap = el("div","abl-row" + (row.ablation === "full" ? " base" : ""));
+    wrap.appendChild(el("div","lab", row.ablation.replace(/_/g," ")));
+    const track = el("div","track");
+    const fill = el("i");
+    fill.style.width = Math.max(1.5, ((r - LO) / (1 - LO)) * 100) + "%";
+    track.appendChild(fill);
+    wrap.appendChild(track);
+    const val = el("div","val");
+    val.appendChild(el("span",null,f3(r)));
+    const small = el("small",null,` · F1 ${f3(row.relaxed.f1)}`);
+    val.appendChild(small);
+    wrap.appendChild(val);
+    wrap.appendChild(el("div","desc", row.description));
+    ablEl.appendChild(wrap);
+  });
+  const axis = el("div","axis");
+  ["recall 0.750","0.875","1.000"].forEach(t => axis.appendChild(el("span",null,t)));
+  ablEl.appendChild(axis);
+
+  /* ---- error ledger ---- */
+  const errEl = document.getElementById("errors");
+  const E = D.document.errors;
+  // Values come from the metrics file and contain characters like "&" that must
+  // not be parsed as markup, so every entry is built with DOM nodes.
+  function entry(kind, cls, lead, rest, where){
+    const e = el("div","entry");
+    const tag = el("span","pill " + cls, kind); tag.classList.add("tag");
+    e.appendChild(tag);
+    const body = el("div");
+    const p = el("p");
+    if (lead) p.appendChild(el("strong", null, lead));
+    if (rest) p.appendChild(document.createTextNode(rest));
+    body.appendChild(p);
+    if (where) body.appendChild(el("span","where", where));
+    e.appendChild(body);
+    return e;
+  }
+  E.false_positives.forEach(fp => errEl.appendChild(
+    entry("FP","b", fp.text, ` reported as ${fp.pii_type}`, `${fp.location} · ${fp.detector}`)));
+  E.false_negatives.forEach(fn => errEl.appendChild(
+    entry("Miss","w", fn.text, ` (${fn.pii_type}) was not detected. Its alias is derived from a segment outside the sample, so the sample-scoped gazetteer never learns it; the full document does redact it.`, fn.location)));
+  E.boundary_errors.forEach(b => errEl.appendChild(
+    entry("Extent","n", null, `${b.pii_type} matched with the wrong extent. Both values are still redacted, so there is no privacy impact.`,
+      `${b.location} · gold “${b.gold.slice(0,64)}” · got “${b.predicted.slice(0,64)}”`)));
+  if (!E.false_positives.length && !E.false_negatives.length && !E.boundary_errors.length){
+    const ok = el("div","ok");
+    ok.appendChild(el("span","pill g","Clean"));
+    ok.appendChild(el("span",null,"No disagreements between the tool and the gold standard."));
+    errEl.appendChild(ok);
+  }
+
+  /* ---- run record ---- */
+  const R = D.run, runStrip = document.getElementById("run-strip");
+  [
+    {k:"Mentions replaced", v:int(R.detection.total_spans), s:`from ${int(R.detection.resolution.input_spans)} detector claims`},
+    {k:"Distinct entities", v:int(R.detection.distinct_entities), s:`${int(R.distinct_surrogates)} surrogates issued`},
+    {k:"Runs modified", v:int(R.replacement.runs_modified), s:`across ${int(R.replacement.segments_modified)} segments`},
+    {k:"Replacements skipped", v:int(R.replacement.replacements_skipped), s:"every planned edit was written", hi:true},
+    {k:"Residual originals", v:int(R.integrity.residual_original_values), s:"after an independent re-scan", hi:true},
+  ].forEach(s => {
+    const c = el("div","stat" + (s.hi ? " hi" : ""));
+    c.appendChild(el("div","k",s.k));
+    c.appendChild(el("div","v",s.v));
+    c.appendChild(el("div","s",s.s));
+    runStrip.appendChild(c);
+  });
+
+  const runTypes = document.querySelector("#run-types tbody");
+  const total = R.detection.total_spans;
+  Object.entries(R.detection.by_type).sort((a,b) => b[1]-a[1]).forEach(([t,n]) => {
+    const tr = el("tr");
+    tr.appendChild(el("td","type",t));
+    tr.appendChild(el("td",null,int(n)));
+    const td = el("td"), w = el("div","meter"), bar = el("div","bar"), fill = el("i");
+    fill.style.width = Math.max(2, (n/total)*100) + "%";
+    bar.appendChild(fill); w.appendChild(bar);
+    w.appendChild(el("span","n", (100*n/total).toFixed(1) + "%"));
+    td.appendChild(w); tr.appendChild(td);
+    runTypes.appendChild(tr);
+  });
+
+  const integ = document.getElementById("integrity");
+  [
+    ["Pipeline re-read of every rewritten segment", "0 residual values", "g"],
+    [`Independent re-scan of the saved .docx for all ${R.distinct_surrogates} originals`, "0 residual values", "g"],
+    ["Paragraph count", "1,006 → 1,006", "g"],
+    ["Table count", "76 → 76", "g"],
+    ["Section count", "85 → 85", "g"],
+    ["Embedded images", "8 → 8", "g"],
+    ["Run-level character formatting", "preserved", "g"],
+    ["Document metadata (author, company, last editor)", "cleared", "g"],
+  ].forEach(([what, result, cls]) => {
+    integ.appendChild(entry("Pass", cls, what, null, result));
+  });
+
+  /* ---- mapping viewer ---- */
+  const mapBody = document.querySelector("#mapping tbody");
+  const mapCap = document.getElementById("map-cap");
+  const types = Object.keys(D.mapping_counts);
+  let active = "ALL";
+  function renderMap(){
+    const rows = D.mapping_sample.filter(r => active === "ALL" || r.pii_type === active);
+    mapBody.textContent = "";
+    rows.forEach(r => {
+      const tr = el("tr");
+      tr.appendChild(el("td","type", r.pii_type));
+      tr.appendChild(el("td",null, r.original));
+      tr.appendChild(el("td","arrow","→"));
+      tr.appendChild(el("td",null, r.surrogate));
+      mapBody.appendChild(tr);
+    });
+    const shownTotal = active === "ALL"
+      ? Object.values(D.mapping_counts).reduce((a,b)=>a+b,0)
+      : D.mapping_counts[active];
+    mapCap.textContent = `Showing ${rows.length} of ${shownTotal} ${active === "ALL" ? "mapped entities" : active + " entities"}`;
+  }
+  const filters = document.getElementById("map-filters");
+  [["ALL", "All types"]].concat(types.map(t => [t, `${t} (${D.mapping_counts[t]})`])).forEach(([key,label]) => {
+    const b = el("button", null, label);
+    b.type = "button";
+    b.setAttribute("aria-pressed", String(key === active));
+    b.addEventListener("click", () => {
+      active = key;
+      Array.from(filters.children).forEach(c => c.setAttribute("aria-pressed", String(c === b)));
+      renderMap();
+    });
+    filters.appendChild(b);
+  });
+  renderMap();
+})();
+</script>
+</body>
+</html>

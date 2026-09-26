@@ -1,0 +1,2722 @@
+{
+ "source": "Red Herring Prospectus.docx",
+ "seed": 20260925,
+ "strata_sizes": {
+  "structural": 126,
+  "contact": 87,
+  "prose": 346,
+  "negative": 1589
+ },
+ "sample_size": 301,
+ "segments": [
+  {
+   "key": "body/tbl0/r0c0",
+   "stratum": "structural",
+   "location": "table 0, row 0, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": null,
+   "text": "REGISTERED OFFICE"
+  },
+  {
+   "key": "body/tbl0/r0c1",
+   "stratum": "structural",
+   "location": "table 0, row 0, col 1",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": null,
+   "text": "CORPORATE OFFICE"
+  },
+  {
+   "key": "body/tbl0/r0c2",
+   "stratum": "structural",
+   "location": "table 0, row 0, col 2",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": null,
+   "text": "CONTACT PERSON"
+  },
+  {
+   "key": "body/tbl0/r0c4",
+   "stratum": "structural",
+   "location": "table 0, row 0, col 4",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": null,
+   "text": "E-MAIL AND TELEPHONE"
+  },
+  {
+   "key": "body/tbl0/r0c6",
+   "stratum": "structural",
+   "location": "table 0, row 0, col 6",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": null,
+   "text": "WEBSITE"
+  },
+  {
+   "key": "body/tbl0/r1c0",
+   "stratum": "structural",
+   "location": "table 0, row 1, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "11/3, 11/4 and 11/5 Village Birdewadi Chakan Taluka - Khed Pune – 410 501\nMaharashtra, India"
+  },
+  {
+   "key": "body/tbl0/r1c1",
+   "stratum": "structural",
+   "location": "table 0, row 1, col 1",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CORPORATE OFFICE",
+   "text": "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner Pune – 411 045\nMaharashtra, India"
+  },
+  {
+   "key": "body/tbl0/r1c2",
+   "stratum": "structural",
+   "location": "table 0, row 1, col 2",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CONTACT PERSON",
+   "text": "\nSarthak Malvadkar Company Secretary and Compliance Officer"
+  },
+  {
+   "key": "body/tbl0/r1c4",
+   "stratum": "structural",
+   "location": "table 0, row 1, col 4",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "E-MAIL AND TELEPHONE",
+   "text": "\nEmail: cs.connect@kshinternational.com Telephone: + 91 20 45053237"
+  },
+  {
+   "key": "body/tbl0/r1c6",
+   "stratum": "structural",
+   "location": "table 0, row 1, col 6",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "WEBSITE",
+   "text": "\nwww.kshinternational. com"
+  },
+  {
+   "key": "body/tbl0/r2c0",
+   "stratum": "structural",
+   "location": "table 0, row 2, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND\nWATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED"
+  },
+  {
+   "key": "body/tbl0/r3c0",
+   "stratum": "structural",
+   "location": "table 0, row 3, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "DETAILS OF THE OFFER TO PUBLIC"
+  },
+  {
+   "key": "body/tbl0/r4c0",
+   "stratum": "structural",
+   "location": "table 0, row 4, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "\nTYPE"
+  },
+  {
+   "key": "body/tbl0/r4c1",
+   "stratum": "structural",
+   "location": "table 0, row 4, col 1",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CORPORATE OFFICE",
+   "text": "SIZE OF THE FRESH ISSUE"
+  },
+  {
+   "key": "body/tbl0/r4c2",
+   "stratum": "structural",
+   "location": "table 0, row 4, col 2",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CONTACT PERSON",
+   "text": "SIZE\tOF\tTHE OFFER FOR SALE"
+  },
+  {
+   "key": "body/tbl0/r4c3",
+   "stratum": "structural",
+   "location": "table 0, row 4, col 3",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CONTACT PERSON",
+   "text": "TOTAL OFFER SIZE"
+  },
+  {
+   "key": "body/tbl0/r4c5",
+   "stratum": "structural",
+   "location": "table 0, row 4, col 5",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "E-MAIL AND TELEPHONE",
+   "text": "ELIGIBILITY\tAND\tSHARE\nRESERVATION AMONG QIBs, NIIs AND RIIs"
+  },
+  {
+   "key": "body/tbl0/r5c0",
+   "stratum": "structural",
+   "location": "table 0, row 5, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "Fresh Issue and Offer for Sale"
+  },
+  {
+   "key": "body/tbl0/r5c1",
+   "stratum": "structural",
+   "location": "table 0, row 5, col 1",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CORPORATE OFFICE",
+   "text": "Up to [●] Equity Shares of face value of ₹5 each aggregating   up   to\n₹4,200.00 million"
+  },
+  {
+   "key": "body/tbl0/r5c2",
+   "stratum": "structural",
+   "location": "table 0, row 5, col 2",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CONTACT PERSON",
+   "text": "Up  to  [●]  Equity\nShares of face value of\n₹5 each aggregating up to ₹2,900.00 million"
+  },
+  {
+   "key": "body/tbl0/r5c3",
+   "stratum": "structural",
+   "location": "table 0, row 5, col 3",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CONTACT PERSON",
+   "text": "Up to [●] Equity Shares of face value of ₹5 each aggregating up to\n₹7,100.00 million"
+  },
+  {
+   "key": "body/tbl0/r5c5",
+   "stratum": "structural",
+   "location": "table 0, row 5, col 5",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "E-MAIL AND TELEPHONE",
+   "text": "The Offer is being made pursuant to Regulation 6(1) of the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018 (“SEBI ICDR Regulations”). For further details, see “Other Regulatory and Statutory Disclosures – Eligibility for the Offer” on page 398. For details of share reservation among Qualified Institutional Buyers, Non-Institutional Investors and Retail Individual\nInvestors, see “Offer Structure” on page 417."
+  },
+  {
+   "key": "body/tbl0/r6c0",
+   "stratum": "structural",
+   "location": "table 0, row 6, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "DETAILS OF THE PROMOTER SELLING SHAREHOLDERS, OFFER FOR SALE AND WEIGHTED AVERAGE COST OF ACQUISITION PER EQUITY SHARE"
+  },
+  {
+   "key": "body/tbl0/r7c0",
+   "stratum": "structural",
+   "location": "table 0, row 7, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "NAME\tOF\tTHE PROMOTER SELLING\nSHAREHOLDER"
+  },
+  {
+   "key": "body/tbl0/r7c1",
+   "stratum": "structural",
+   "location": "table 0, row 7, col 1",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CORPORATE OFFICE",
+   "text": "\nTYPE"
+  },
+  {
+   "key": "body/tbl0/r7c2",
+   "stratum": "structural",
+   "location": "table 0, row 7, col 2",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CONTACT PERSON",
+   "text": "AGGREGATE AMOUNT OF OFFER FOR SALE (₹ IN MILLION)"
+  },
+  {
+   "key": "body/tbl0/r7c5",
+   "stratum": "structural",
+   "location": "table 0, row 7, col 5",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "E-MAIL AND TELEPHONE",
+   "text": "WEIGHTED AVERAGE COST OF ACQUISITION PER EQUITY SHARE OF FACE VALUE OF ₹5 EACH (IN ₹) *#"
+  },
+  {
+   "key": "body/tbl0/r8c0",
+   "stratum": "structural",
+   "location": "table 0, row 8, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "Kushal Subbayya Hegde"
+  },
+  {
+   "key": "body/tbl0/r8c1",
+   "stratum": "structural",
+   "location": "table 0, row 8, col 1",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CORPORATE OFFICE",
+   "text": "Promoter Selling Shareholder"
+  },
+  {
+   "key": "body/tbl0/r8c2",
+   "stratum": "structural",
+   "location": "table 0, row 8, col 2",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CONTACT PERSON",
+   "text": "1,528.00"
+  },
+  {
+   "key": "body/tbl0/r8c5",
+   "stratum": "structural",
+   "location": "table 0, row 8, col 5",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "E-MAIL AND TELEPHONE",
+   "text": "1.36"
+  },
+  {
+   "key": "body/tbl0/r9c0",
+   "stratum": "structural",
+   "location": "table 0, row 9, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "Pushpa Kushal Hegde"
+  },
+  {
+   "key": "body/tbl0/r9c1",
+   "stratum": "structural",
+   "location": "table 0, row 9, col 1",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CORPORATE OFFICE",
+   "text": "Promoter Selling Shareholder"
+  },
+  {
+   "key": "body/tbl0/r9c2",
+   "stratum": "structural",
+   "location": "table 0, row 9, col 2",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CONTACT PERSON",
+   "text": "422.00"
+  },
+  {
+   "key": "body/tbl0/r9c5",
+   "stratum": "structural",
+   "location": "table 0, row 9, col 5",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "E-MAIL AND TELEPHONE",
+   "text": "1.51"
+  },
+  {
+   "key": "body/tbl0/r10c0",
+   "stratum": "structural",
+   "location": "table 0, row 10, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "Rajesh Kushal Hegde"
+  },
+  {
+   "key": "body/tbl0/r10c1",
+   "stratum": "structural",
+   "location": "table 0, row 10, col 1",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CORPORATE OFFICE",
+   "text": "Promoter Selling Shareholder"
+  },
+  {
+   "key": "body/tbl0/r10c2",
+   "stratum": "structural",
+   "location": "table 0, row 10, col 2",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CONTACT PERSON",
+   "text": "475.00"
+  },
+  {
+   "key": "body/tbl0/r10c5",
+   "stratum": "structural",
+   "location": "table 0, row 10, col 5",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "E-MAIL AND TELEPHONE",
+   "text": "1.41"
+  },
+  {
+   "key": "body/tbl0/r11c0",
+   "stratum": "structural",
+   "location": "table 0, row 11, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "Rohit Kushal Hegde"
+  },
+  {
+   "key": "body/tbl0/r11c1",
+   "stratum": "structural",
+   "location": "table 0, row 11, col 1",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CORPORATE OFFICE",
+   "text": "Promoter Selling Shareholder"
+  },
+  {
+   "key": "body/tbl0/r11c2",
+   "stratum": "structural",
+   "location": "table 0, row 11, col 2",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "CONTACT PERSON",
+   "text": "475.00"
+  },
+  {
+   "key": "body/tbl0/r11c5",
+   "stratum": "structural",
+   "location": "table 0, row 11, col 5",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "E-MAIL AND TELEPHONE",
+   "text": "1.35"
+  },
+  {
+   "key": "body/tbl0/r12c0",
+   "stratum": "structural",
+   "location": "table 0, row 12, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "*As certified by Kirtane & Pandit LLP, Chartered Accountants, our Statutory Auditors, by way of their certificate dated December 10, 2025. For further details, see “Summary of the Offer Document – Average cost of acquisition of Equity Shares by our Promoters and the Promoter Selling Shareholders” on page 26.\n#As adjusted for Split of Equity Shares and Bonus Issue."
+  },
+  {
+   "key": "body/tbl0/r13c0",
+   "stratum": "structural",
+   "location": "table 0, row 13, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "RISKS IN RELATION TO THE FIRST OFFER"
+  },
+  {
+   "key": "body/tbl0/r14c0",
+   "stratum": "structural",
+   "location": "table 0, row 14, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "This being the first public offering of equity shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Floor Price, Cap Price and Offer Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations) and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active an d/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing."
+  },
+  {
+   "key": "body/tbl0/r15c0",
+   "stratum": "structural",
+   "location": "table 0, row 15, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "GENERAL RISKS"
+  },
+  {
+   "key": "body/tbl0/r16c0",
+   "stratum": "structural",
+   "location": "table 0, row 16, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "REGISTERED OFFICE",
+   "text": "Investments in equity and equity-related securities involve a degree of risk and Bidders should not invest any funds in the Offer unless they can afford to take the risk of losing their entire investment. Bidders are advised to read the risk factors carefully before taking an investment decision in the Offer. For taking an investment decision, Bidders must rely on their own examination of our Company and the Offer, including the risks involved. The Equity Shares offered in the Offer have not been recommended or approved by the Securities and Exchange Board of"
+  },
+  {
+   "key": "body/tbl1/r7c7",
+   "stratum": "contact",
+   "location": "table 1, row 7, col 7",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "India (“SEBI”), nor does SEBI guarantee the accuracy or adequacy of the contents of this Red Herring Prospectus. Specific attention of the investors is invited to “Risk Factors” on page 28.",
+   "text": "Email: ksh.ipo@nuvama.com\nTelephone: +91 22 4009 4400"
+  },
+  {
+   "key": "body/tbl1/r8c7",
+   "stratum": "contact",
+   "location": "table 1, row 8, col 7",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "India (“SEBI”), nor does SEBI guarantee the accuracy or adequacy of the contents of this Red Herring Prospectus. Specific attention of the investors is invited to “Risk Factors” on page 28.",
+   "text": "\nEmail: ksh@icicisecurities.com\nTelephone: +91 22 6807 7100"
+  },
+  {
+   "key": "body/tbl1/r11c3",
+   "stratum": "contact",
+   "location": "table 1, row 11, col 3",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+   "column_header": "India (“SEBI”), nor does SEBI guarantee the accuracy or adequacy of the contents of this Red Herring Prospectus. Specific attention of the investors is invited to “Risk Factors” on page 28.",
+   "text": "Telephone: +91 81081 14949\nE-mail: kshinternational.ipo@in.mpms.mufg.com"
+  },
+  {
+   "key": "body/p23",
+   "stratum": "structural",
+   "location": "paragraph 23",
+   "kind": "paragraph",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": null,
+   "text": "KSH INTERNATIONAL LIMITED"
+  },
+  {
+   "key": "body/p24",
+   "stratum": "structural",
+   "location": "paragraph 24",
+   "kind": "paragraph",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": null,
+   "text": "Our Company was originally incorporated as “Bhandary Metal Extrusion Private Limited” under the provisions of the Companies Act, 1956, pursuant to a certificate of incorporation dated July 30, 1979, issued by the Registrar of Companies, Maharashtra at Bombay. Subsequently, the name of our Company was changed from “Bhandary Metal Extrusion Private Limited” to “KSH International Private Limited” pursuant to a resolution dated June 1, 1996 passed by our Board and a resolution dated June 24, 1996 passed by our shareholders, post which a fresh certificate of incorporation dated July 4, 1996 was issued by Registrar of Companies Maharashtra at Mumbai pursuant to change of name under the Companies Act, 1956. Further, pursuant to a special resolution passed by our Shareholders on January 13, 2011 which was confirmed by an order of the regional director dated August 16, 2011, the registered office of our Company was shifted from the jurisdiction of Registrar of Companies, Maharashtra at Mumbai to the jurisdiction of the Registrar of Companies, Maharashtra at Pune, and a certificate of registration of the order of regional director confirming transfer of the registered office within the same state was issued to us on October 13, 2011, by the RoC. On the conversion of our Company from a private limited company to a public limited company, pursuant to a resolution passed by our Board on December 11, 2024 and a special resolution passed by our Shareholders on December 19, 2024, the name of our Company was changed to “KSH International Limited” and a fresh certificate of incorporation was issued by the Registrar of Companies, Central Processing Centre on January 20, 2025. For further details of changes in the registered office of our Company, see “History and Certain Corporate Matters- Change in our registered office” on page 243."
+  },
+  {
+   "key": "body/p25",
+   "stratum": "structural",
+   "location": "paragraph 25",
+   "kind": "paragraph",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": null,
+   "text": "Corporate Identity Number: U28129PN1979PLC141032"
+  },
+  {
+   "key": "body/p26",
+   "stratum": "structural",
+   "location": "paragraph 26",
+   "kind": "paragraph",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": null,
+   "text": "Registered Office: 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India;"
+  },
+  {
+   "key": "body/p27",
+   "stratum": "structural",
+   "location": "paragraph 27",
+   "kind": "paragraph",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": null,
+   "text": "Corporate Office: 201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India;"
+  },
+  {
+   "key": "body/p28",
+   "stratum": "structural",
+   "location": "paragraph 28",
+   "kind": "paragraph",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": null,
+   "text": "Contact Person: Sarthak Malvadkar, Company Secretary and Compliance Officer; Telephone: + 91 20 4505 3237;"
+  },
+  {
+   "key": "body/p29",
+   "stratum": "structural",
+   "location": "paragraph 29",
+   "kind": "paragraph",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": null,
+   "text": "E-mail: cs.connect@kshinternational.com; Website: www.kshinternational.com"
+  },
+  {
+   "key": "body/tbl2/r0c0",
+   "stratum": "structural",
+   "location": "table 2, row 0, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": null,
+   "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST\nFAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED"
+  },
+  {
+   "key": "body/tbl2/r1c0",
+   "stratum": "structural",
+   "location": "table 2, row 1, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "INITIAL PUBLIC OFFERING OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH (“EQUITY SHARES”) OF KSH INTERNATIONAL LIMITED (“COMPANY” OR “ISSUER”) FOR CASH AT A PRICE OF ₹[●] PER EQUITY SHARE (INCLUDING A SHARE PREMIUM OF ₹[●] PER EQUITY SHARE) (“OFFER PRICE”) AGGREGATING UP TO ₹7,100.00 MILLION (THE “OFFER”) COMPRISING A FRESH ISSUE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING UP TO ₹4,200.00 MILLION (“FRESH ISSUE”) AND AN OFFER FOR SALE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹[●] EACH (“OFFERED SHARES”) AGGREGATING UP TO ₹2,900.00 MILLION, COMPRISING UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY KUSHAL SUBBAYYA HEGDE AGGREGATING UP TO ₹1,528.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY PUSHPA KUSHAL HEGDE AGGREGATING UP TO ₹422.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY RAJESH KUSHAL HEGDE AGGREGATING UP TO ₹475.00 MILLION AND UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY ROHIT KUSHAL HEGDE AGGREGATING UP TO\n₹475.00 MILLION (COLLECTIVELY, “PROMOTER SELLING SHAREHOLDERS” AND SUCH OFFER FOR SALE OF EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY THE PROMOTER SELLING SHAREHOLDERS, THE “OFFER FOR SALE”). THE OFFER SHALL CONSTITUTE [●]% OF THE POST-OFFER PAID UP EQUITY SHARE CAPITAL OF OUR COMPANY.\nTHE FACE VALUE OF THE EQUITY SHARES IS ₹5 EACH. THE OFFER PRICE IS [●] TIMES THE FACE VALUE OF THE EQUITY SHARES. THE PRICE BAND, AND MINIMUM BID LOT WILL BE DECIDED BY OUR COMPANY, IN CONSULTATION WITH THE BOOK RUNNING LEAD MANAGERS, AND WILL BE ADVERTISED IN ALL EDITIONS OF FINANCIAL EXPRESS (A WIDELY CIRCULATED ENGLISH NATIONAL DAILY NEWSPAPER), ALL EDITIONS OF JANSATTA (A WIDELY CIRCULATED HINDI NATIONAL DAILY NEWSPAPER) AND PUNE EDITION OF LOKSATTA (A WIDELY CIRCULATED MARATHI DAILY NEWSPAPER, MARATHI BEING THE REGIONAL LANGUAGE OF MAHARASHTRA WHERE OUR REGISTERED OFFICE IS LOCATED), AT LEAST TWO WORKING DAYS PRIOR TO THE BID/OFFER OPENING DATE AND SHALL BE MADE AVAILABLE TO THE STOCK EXCHANGES FOR UPLOADING ON THEIR RESPECTIVE WEBSITES IN ACCORDANCE WITH SECURITIES AND\nEXCHANGE BOARD OF INDIA (ISSUE OF CAPITAL AND DISCLOSURE REQUIREMENTS) REGULATIONS, 2018, AS AMENDED (THE “SEBI ICDR REGULATIONS”)."
+  },
+  {
+   "key": "body/tbl2/r2c0",
+   "stratum": "structural",
+   "location": "table 2, row 2, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "In case of any revision in the Price Band, the Bid/Offer Period will be extended by at least three additional Working Days after such revision in the Price Band, subject to the Bid/Offer Period not exceeding 10 Working Days. In cases of force majeure, banking strike or similar unforeseen circumstances, our Company may, in consultation with the Book Running Lead Managers, for reasons to be recorded in writing, extend the Bid /Offer Period for a minimum of one Working Day, subject to the Bid/Offer Period not exceeding 10 Working Days. Any revision in the Price Band and the revised Bid/Offer Period, if applicable, shall be widely disseminated by notification to the Stock Exchanges, by issuing a press release, and also by indicating the change on the respective websites of the Book Running Lead Managers and at the terminals of the members of the Syndicate and by intimation to Designated Intermediaries and the Sponsor Banks,\nas applicable."
+  },
+  {
+   "key": "body/tbl2/r3c0",
+   "stratum": "structural",
+   "location": "table 2, row 3, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "The Offer is being made in terms of Rule 19(2)(b) of the Securities Contracts (Regulation) Rules, 1957, as amended (the “SCRR”), read with Regulation 31 of the SEBI ICDR Regulations. The Offer is being made through the Book Building Process in accordance with Regulation 6(1) of the SEBI ICDR Regulations wherein not more than 50% of the Offer shall be available for allocation on a proportionate basis to Qualified Institutional Buyers (“QIBs”) (the “QIB Portion”), provided that our Company may, in consultation with the BRLMs, allocate up to 60% of the QIB Portion to Anchor Investors on a discretionary basis, in accordance with the SEBI ICDR Regulations (the “Anchor Investor Portion”), of which 40% shall be reserved in the following manner (i) 33.33% of the Anchor Investor Portion shall be reserved for domestic Mutual Funds; and (ii) 6.67% of the Anchor Investor Portion shall be reserved for Life Insurance Companies and Pension Funds, subject to valid Bids being received from domestic Mutual Funds, Life Insurance Companies and Pension Funds, as applicable, at or above the Anchor Investor Allocation Price. Any under-subscription in the Life Insurance Companies and Pension Funds category specified in (ii) above may be allocated to domestic Mutual Funds, in accordance with the SEBI ICDR Regulations. In the event of under-subscription or non-allocation in the Anchor Investor Portion, the balance Equity Shares shall be added to the QIB Portion (other than the Anchor Investor Portion) (the “Net QIB Portion”). Further, 5% of the Net QIB Portion shall be available for allocation on a proportionate basis to Mutual Funds only, subject to valid Bids being received at or above the Offer Price, and the remainder of the Net QIB Portion shall be available for allocation on a proportionate basis to all QIBs, including Mutual Funds, subject to valid Bids being received at or above the Offer Price. Further, not less than 15% of the Offer shall be available for allocation to Non-Institutional Investors (“Non-Institutional Portion”) of which one-third of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹0.20 million and up to ₹1.00 million and two-thirds of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹1.00 million and undersubscription in either of these two sub-categories of the Non-Institutional Portion may be allocated to Bidders in the other sub-category of the Non-Institutional Portion in accordance with the SEBI ICDR Regulations, subject to valid Bids being received at or above the Offer Price. Further, not less than 35% of the Offer shall be available for allocation to Retail Individual Investors (“Retail Portion”), in accordance with the SEBI ICDR Regulations, subject to valid Bids being received from them at or above the Offer Price. All Bidders (except Anchor Investors) shall mandatorily participate in this Offer only through the Application Supported by Blocked Amount (“ASBA”)\nprocess and shall provide details of their respective bank account (including UPI ID (defined hereinafter) in case of UPI Bidders (defined hereinafter) in which the Bid Amount will be blocked by the Self Certified Syndicate Banks (“SCSBs”) or pursuant to the UPI Mechanism, as the case may be. Anchor Investors are not permitted to participate in the Anchor Investor Portion through the ASBA process. For details, see “Offer Procedure” on page 420."
+  },
+  {
+   "key": "body/tbl2/r4c0",
+   "stratum": "structural",
+   "location": "table 2, row 4, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "RISKS IN RELATION TO THE FIRST OFFER"
+  },
+  {
+   "key": "body/tbl2/r5c0",
+   "stratum": "structural",
+   "location": "table 2, row 5, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "This being the first public offer of Equity Shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active and/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing."
+  },
+  {
+   "key": "body/tbl2/r6c0",
+   "stratum": "structural",
+   "location": "table 2, row 6, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "GENERAL RISK"
+  },
+  {
+   "key": "body/tbl2/r7c0",
+   "stratum": "structural",
+   "location": "table 2, row 7, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "Investments in equity and equity-related securities involve a degree of risk and Bidders should not invest any funds in the Offer unless they can afford to take the risk of losing their entire investment. Bidders are advised to read the risk factors carefully before taking an investment decision in the Offer. For taking an investment decision, Bidders must rely on their own examination of our Company and the Offer, including the risks involved. The Equity Shares in the Offer have not been recommended or approved by SEBI, nor does SEBI guarantee the accuracy or adequacy of the contents of this Red Herring Prospectus. Specific attention of the Bidders is invited to “Risk Factors” on page 28."
+  },
+  {
+   "key": "body/tbl2/r8c0",
+   "stratum": "structural",
+   "location": "table 2, row 8, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "ISSUER’S AND PROMOTER SELLING SHAREHOLDERS’ ABSOLUTE RESPONSIBILITY"
+  },
+  {
+   "key": "body/tbl2/r9c0",
+   "stratum": "structural",
+   "location": "table 2, row 9, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "Our Company, having made all reasonable inquiries, accepts responsibility for and confirms that this Red Herring Prospectus contains all information with regard to our Company and the Offer, which is material in the context of the Offer, that the information contained in this Red Herring Prospectus is true and correct in all material aspects and is not misleading in any material respect, that the opinions and intentions expressed herein are honestly held and that there are no other facts, the omission of which makes this Red Herring Prospectus as a whole or any of such information or the expression of any such opinions or intentions misleading in any material respect. Each of the Promoter Selling Shareholders, severally and not jointly, accepts responsibility for and confirms the statements specifically made or confirmed by them in this Red Herring Prospectus solely to the extent of information specifically pertaining to themselves and the Equity Shares offered by them in the Offer for Sale and assumes responsibility that such statements are true and correct in all material respects and are not misleading in any material respect. Each of the Promoter Selling Shareholders, severally and not jointly, assume no responsibility for any other statements, including, inter alia, any and all of the statements made by or relating to our Company or its business or any other Promoter Selling Shareholder or any other person(s) in\nthis Red Herring Prospectus."
+  },
+  {
+   "key": "body/tbl2/r10c0",
+   "stratum": "structural",
+   "location": "table 2, row 10, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "LISTING"
+  },
+  {
+   "key": "body/tbl2/r11c0",
+   "stratum": "structural",
+   "location": "table 2, row 11, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "The Equity Shares, offered through this Red Herring Prospectus, are proposed to be listed on the Stock Exchanges. Our Company has received in-principle approvals from BSE and NSE for listing of the Equity Shares pursuant to their letters each dated August 4, 2025, respectively. For the purposes of the Offer, the Designated Stock Exchange shall be BSE. A copy of this Red Herring Prospectus has been filed with the RoC and a copy of the Prospectus shall be filed with the RoC in accordance with Sections 26(4) and 32 of the Companies Act, 2013. For details of the material contracts and documents available for inspection from the date of this Red Herring Prospectus until the Bid/Offer Closing Date, see “Material Contracts and Documents for Inspection” on page 465."
+  },
+  {
+   "key": "body/tbl2/r12c0",
+   "stratum": "structural",
+   "location": "table 2, row 12, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "BOOK RUNNING LEAD MANAGERS"
+  },
+  {
+   "key": "body/tbl2/r12c6",
+   "stratum": "structural",
+   "location": "table 2, row 12, col 6",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "REGISTRAR TO THE OFFER"
+  },
+  {
+   "key": "body/tbl2/r14c0",
+   "stratum": "structural",
+   "location": "table 2, row 14, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "Nuvama Wealth Management Limited\n801 - 804, Wing A, Building No 3, Inspire BKC, G Block, Bandra Kurla Complex, Bandra East, Mumbai 400051, Maharashtra, India\nTel: +91 22 40094400\nE-mail: ksh.ipo@nuvama.com\nWebsite: www.nuvama.com\nInvestor grievance email: customerservice.mb@nuvama.com\nContact Person: Lokesh Shah/ Soumavo Sarkar\nSEBI Registration Number: INM000013004"
+  },
+  {
+   "key": "body/tbl2/r14c2",
+   "stratum": "structural",
+   "location": "table 2, row 14, col 2",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "ICICI Securities Limited\nICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025, Maharashtra, India\nTel: +91 22 6807 7100\nE-mail: ksh@icicisecurities.com\nWebsite: www.icicisecurities.com\nInvestor grievance email: customercare@icicisecurities.com\nContact Person: Kishan Rastogi/Abhijit Diwan\nSEBI Registration Number: INM000011179"
+  },
+  {
+   "key": "body/tbl2/r14c6",
+   "stratum": "structural",
+   "location": "table 2, row 14, col 6",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "MUFG Intime India Private Limited\n(Formerly Link Intime India Private Limited)\nC-101, Embassy 247, 1st Floor, L B S Marg, Vikhroli (West), Mumbai 400083, (Maharashtra), India\nTel: +91 81081 14949\nE-mail: kshinternational.ipo@in.mpms.mufg.com\nWebsite: www.in.mpms.mufg.com\nInvestor grievance e-mail: kshinternational.ipo@in.mpms.mufg.com\nContact Person: Shanti Gopalkrishnan\nSEBI Registration Number: INR000004058"
+  },
+  {
+   "key": "body/tbl2/r15c0",
+   "stratum": "structural",
+   "location": "table 2, row 15, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "BID/ OFFER PERIOD"
+  },
+  {
+   "key": "body/tbl2/r16c0",
+   "stratum": "structural",
+   "location": "table 2, row 16, col 0",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "ANCHOR INVESTOR BIDDING DATE(1)"
+  },
+  {
+   "key": "body/tbl2/r16c1",
+   "stratum": "structural",
+   "location": "table 2, row 16, col 1",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "Monday, December 15,\n2025"
+  },
+  {
+   "key": "body/tbl2/r16c3",
+   "stratum": "structural",
+   "location": "table 2, row 16, col 3",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "BID/OFFER OPENS ON"
+  },
+  {
+   "key": "body/tbl2/r16c4",
+   "stratum": "structural",
+   "location": "table 2, row 16, col 4",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "Tuesday, December 16,\n2025"
+  },
+  {
+   "key": "body/tbl2/r16c5",
+   "stratum": "structural",
+   "location": "table 2, row 16, col 5",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "BID/OFFER CLOSES ON(2)"
+  },
+  {
+   "key": "body/tbl2/r16c7",
+   "stratum": "structural",
+   "location": "table 2, row 16, col 7",
+   "kind": "table-cell",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+   "text": "Thursday, December 18, 2025"
+  },
+  {
+   "key": "body/p31",
+   "stratum": "structural",
+   "location": "paragraph 31",
+   "kind": "paragraph",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": null,
+   "text": "(1) Our Company, in consultation with the Book Running Lead Managers, may consider participation by Anchor Investors in accordance with the SEBI ICDR Regulations."
+  },
+  {
+   "key": "body/p32",
+   "stratum": "structural",
+   "location": "paragraph 32",
+   "kind": "paragraph",
+   "section": "KSH INTERNATIONAL LIMITED",
+   "column_header": null,
+   "text": "(2) The UPI mandate end time and date shall be at 5:00 p.m. on Bid/Offer Closing Day."
+  },
+  {
+   "key": "body/p47",
+   "stratum": "prose",
+   "location": "paragraph 47",
+   "kind": "paragraph",
+   "section": "DEFINITIONS AND ABBREVIATIONS",
+   "column_header": null,
+   "text": "This Red Herring Prospectus uses certain definitions and abbreviations which, unless the context otherwise indicates or implies, or unless otherwise specified, shall have the meaning as provided below, and references to any legislation, act, regulation, rules, guidelines or policies shall be to such legislation, act, regulation, rule guidelines or policy as amended from time to time and any reference to a statutory provision shall include any subordinate legislation made from time to time under that provision. Further, the Offer related terms used but not defined in this Red Herring Prospectus shall have the meaning ascribed to such terms under the General Information Document. In case of any inconsistency between the definitions given below and the definitions contained in the General Information Document (as defined below), the definitions given below shall prevail."
+  },
+  {
+   "key": "body/p48",
+   "stratum": "contact",
+   "location": "paragraph 48",
+   "kind": "paragraph",
+   "section": "DEFINITIONS AND ABBREVIATIONS",
+   "column_header": null,
+   "text": "Unless the context otherwise indicates, all references to “we”, “us”, “our”, “the Company”, and “our Company”, are references to KSH International Limited, a company incorporated on July 30, 1979 under the Companies Act, 1956 and having its Registered Office at 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India and its Corporate Office at 201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India."
+  },
+  {
+   "key": "body/tbl3/r1c1",
+   "stratum": "contact",
+   "location": "table 3, row 1, col 1",
+   "kind": "table-cell",
+   "section": "General Terms",
+   "column_header": "Description",
+   "text": "KSH International Limited, a public limited company incorporated under the Companies Act, 1956, having its registered office at 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India"
+  },
+  {
+   "key": "body/tbl5/r1c0",
+   "stratum": "contact",
+   "location": "table 5, row 1, col 0",
+   "kind": "table-cell",
+   "section": "Company Related Terms",
+   "column_header": "Term",
+   "text": "Corporate Office"
+  },
+  {
+   "key": "body/tbl5/r1c1",
+   "stratum": "contact",
+   "location": "table 5, row 1, col 1",
+   "kind": "table-cell",
+   "section": "Company Related Terms",
+   "column_header": "Description",
+   "text": "The corporate office of our company located at 201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India"
+  },
+  {
+   "key": "body/tbl5/r6c0",
+   "stratum": "negative",
+   "location": "table 5, row 6, col 0",
+   "kind": "table-cell",
+   "section": "Company Related Terms",
+   "column_header": "Term",
+   "text": "Executive Director(s)"
+  },
+  {
+   "key": "body/tbl5/r12c1",
+   "stratum": "contact",
+   "location": "table 5, row 12, col 1",
+   "kind": "table-cell",
+   "section": "Company Related Terms",
+   "column_header": "Description",
+   "text": "The independent chartered engineer appointed by our Company, namely, Lalit Muljibhai Sarvaiya bearing registration number M-140388"
+  },
+  {
+   "key": "body/tbl5/r14c0",
+   "stratum": "negative",
+   "location": "table 5, row 14, col 0",
+   "kind": "table-cell",
+   "section": "Company Related Terms",
+   "column_header": "Term",
+   "text": "IPO Committee"
+  },
+  {
+   "key": "body/tbl5/r17c0",
+   "stratum": "negative",
+   "location": "table 5, row 17, col 0",
+   "kind": "table-cell",
+   "section": "Company Related Terms",
+   "column_header": "Term",
+   "text": "Managing Director"
+  },
+  {
+   "key": "body/tbl5/r29c0",
+   "stratum": "contact",
+   "location": "table 5, row 29, col 0",
+   "kind": "table-cell",
+   "section": "Company Related Terms",
+   "column_header": "Term",
+   "text": "Registered Office"
+  },
+  {
+   "key": "body/tbl5/r29c1",
+   "stratum": "contact",
+   "location": "table 5, row 29, col 1",
+   "kind": "table-cell",
+   "section": "Company Related Terms",
+   "column_header": "Description",
+   "text": "The registered office of our Company located at 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka-Khed, Pune – 410 501, Maharashtra, India"
+  },
+  {
+   "key": "body/tbl6/r11c1",
+   "stratum": "contact",
+   "location": "table 6, row 11, col 1",
+   "kind": "table-cell",
+   "section": "Company Related Terms",
+   "column_header": "Description",
+   "text": "Our manufacturing facility located at Plot No. J-25, Taloja Industrial Area, Village Padghe, Taluka Panvel, Raigad – 410 208, Maharashtra, India"
+  },
+  {
+   "key": "body/tbl6/r12c1",
+   "stratum": "contact",
+   "location": "table 6, row 12, col 1",
+   "kind": "table-cell",
+   "section": "Company Related Terms",
+   "column_header": "Description",
+   "text": "Our manufacturing facility located at 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India"
+  },
+  {
+   "key": "body/tbl6/r13c1",
+   "stratum": "contact",
+   "location": "table 6, row 13, col 1",
+   "kind": "table-cell",
+   "section": "Company Related Terms",
+   "column_header": "Description",
+   "text": "Our manufacturing facility located at Plot No. 5, Chakan Industrial Area, Phase II, Village Khalumbre, Taluka Khed, Pune – 410 501, Maharashtra, India"
+  },
+  {
+   "key": "body/tbl8/r15c1",
+   "stratum": "contact",
+   "location": "table 8, row 15, col 1",
+   "kind": "table-cell",
+   "section": "Offer Related Terms",
+   "column_header": "Description",
+   "text": "Except in relation to any Bids received from the Anchor Investors, the date after which the Designated Intermediaries will not accept any Bids, being December 18, 2025, which shall be published in all editions of Financial Express (a widely circulated English national daily newspaper), all editions of Jansatta (a widely circulated Hindi national daily newspaper), and Pune edition of Loksatta (a widely circulated Marathi daily newspaper, Marathi being the regional language of Maharashtra, where our Registered Office is located). In case of any revisions, the extended Bid/Offer Closing Date shall also be notified on the websites and terminals of the members of the Syndicate, as required under the SEBI ICDR Regulations and communicated to the Designated Intermediaries and the Sponsor Banks.\n\nOur Company, in consultation with the BRLMs, may consider closing the Bid/Offer Period for QIBs one Working Day prior to the Bid/Offer Closing Date in accordance with the SEBI ICDR Regulations. In case of any revision, the extended Bid/ Offer Closing Date shall be widely disseminated by notification to the Stock Exchanges, and also be notified on the websites of the BRLMs and at the terminals of the Syndicate Members, which shall also be notified in an\nadvertisement in same newspapers in which the Bid/ Offer Opening Date was published, as required under the SEBI ICDR Regulations"
+  },
+  {
+   "key": "body/tbl9/r1c1",
+   "stratum": "contact",
+   "location": "table 9, row 1, col 1",
+   "kind": "table-cell",
+   "section": "Offer Related Terms",
+   "column_header": "Description",
+   "text": "newspaper), all editions of Jansatta (a widely circulated Hindi national daily newspaper), and Pune edition of Loksatta (a widely circulated Marathi daily newspaper, Marathi being the regional\nlanguage of Maharashtra, where our Registered Office is located)"
+  },
+  {
+   "key": "body/tbl11/r6c1",
+   "stratum": "negative",
+   "location": "table 11, row 6, col 1",
+   "kind": "table-cell",
+   "section": "Offer Related Terms",
+   "column_header": "Description",
+   "text": "The offer for sale component of the Offer of up to [●] Equity Shares of face value of ₹5 each aggregating up to ₹2,900.00 million, comprising of an offer for sale of up to [●] Equity Shares of face value of ₹5 each by Kushal Subbayya Hegde aggregating up to ₹1,528.00 million, up to [●] Equity Shares of face value of ₹5 each by Pushpa Kushal Hegde aggregating up to ₹422.00 million, up to [●] Equity Shares of face value of ₹5 each by Rajesh Kushal Hegde aggregating up to ₹475.00 million and up to [●] Equity Shares of face value of ₹5 each by Rohit Kushal Hegde\naggregating up to ₹475.00 million"
+  },
+  {
+   "key": "body/tbl11/r10c0",
+   "stratum": "negative",
+   "location": "table 11, row 10, col 0",
+   "kind": "table-cell",
+   "section": "Offer Related Terms",
+   "column_header": "Term",
+   "text": "Pension Fund"
+  },
+  {
+   "key": "body/tbl11/r11c1",
+   "stratum": "contact",
+   "location": "table 11, row 11, col 1",
+   "kind": "table-cell",
+   "section": "Offer Related Terms",
+   "column_header": "Description",
+   "text": "Price band of a minimum price of ₹[●] per Equity Share (Floor Price) and the maximum price of\n₹[●] per Equity Share (Cap Price) including any revisions thereof. The Cap Price shall be at least 105% of the Floor Price and shall be less than or equal to 120% of the Floor Price. The Price Band and the minimum Bid Lot for the Offer will be decided by our Company, in consultation with the BRLMs, and will be advertised in all editions of Financial express (a widely circulated English national daily newspaper), all editions of Jansatta (a widely circulated Hindi national daily newspaper) and Pune edition of Loksatta (a widely circulated Marathi daily newspaper, Marathi being the regional language of Maharashtra, where our Registered Office is situated) at least two Working Days prior to the Bid/Offer Opening Date, with the relevant financial ratios calculated at the Floor Price and at the Cap Price, and shall be made available to the Stock Exchanges for the\npurpose of uploading on their respective websites"
+  },
+  {
+   "key": "body/tbl11/r13c0",
+   "stratum": "negative",
+   "location": "table 11, row 13, col 0",
+   "kind": "table-cell",
+   "section": "Offer Related Terms",
+   "column_header": "Term",
+   "text": "Prospectus"
+  },
+  {
+   "key": "body/tbl13/r1c1",
+   "stratum": "negative",
+   "location": "table 13, row 1, col 1",
+   "kind": "table-cell",
+   "section": "Offer Related Terms",
+   "column_header": "Description",
+   "text": "Together, the BRLMs and the Syndicate Members"
+  },
+  {
+   "key": "body/tbl14/r0c1",
+   "stratum": "negative",
+   "location": "table 14, row 0, col 1",
+   "kind": "table-cell",
+   "section": "Conventional and General Terms and Abbreviations",
+   "column_header": null,
+   "text": "Description"
+  },
+  {
+   "key": "body/tbl15/r3c0",
+   "stratum": "contact",
+   "location": "table 15, row 3, col 0",
+   "kind": "table-cell",
+   "section": "Conventional and General Terms and Abbreviations",
+   "column_header": "Term",
+   "text": "DIN"
+  },
+  {
+   "key": "body/tbl15/r4c1",
+   "stratum": "negative",
+   "location": "table 15, row 4, col 1",
+   "kind": "table-cell",
+   "section": "Conventional and General Terms and Abbreviations",
+   "column_header": "Description",
+   "text": "Depository Participant’s Identification Number"
+  },
+  {
+   "key": "body/tbl15/r42c1",
+   "stratum": "negative",
+   "location": "table 15, row 42, col 1",
+   "kind": "table-cell",
+   "section": "Conventional and General Terms and Abbreviations",
+   "column_header": "Description",
+   "text": "A person resident outside India who is a citizen of India as defined under the Foreign Exchange Management (Deposit) Regulations, 2016 or is an ‘Overseas Citizen of India’ cardholder within the meaning of section 7(A) of the Citizenship Act, 1955"
+  },
+  {
+   "key": "body/tbl16/r20c1",
+   "stratum": "negative",
+   "location": "table 16, row 20, col 1",
+   "kind": "table-cell",
+   "section": "Conventional and General Terms and Abbreviations",
+   "column_header": "Description",
+   "text": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015"
+  },
+  {
+   "key": "body/tbl17/r16c1",
+   "stratum": "negative",
+   "location": "table 17, row 16, col 1",
+   "kind": "table-cell",
+   "section": "Technical and Industry Related Terms",
+   "column_header": "Abbreviations",
+   "text": "Circuit Kilometers"
+  },
+  {
+   "key": "body/tbl18/r19c1",
+   "stratum": "negative",
+   "location": "table 18, row 19, col 1",
+   "kind": "table-cell",
+   "section": "Technical and Industry Related Terms",
+   "column_header": "Abbreviations",
+   "text": "Internal Combustion Engine"
+  },
+  {
+   "key": "body/tbl18/r52c1",
+   "stratum": "negative",
+   "location": "table 18, row 52, col 1",
+   "kind": "table-cell",
+   "section": "Technical and Industry Related Terms",
+   "column_header": "Abbreviations",
+   "text": "Remission of Duties and Taxes on Exported Products"
+  },
+  {
+   "key": "body/tbl19/r9c1",
+   "stratum": "negative",
+   "location": "table 19, row 9, col 1",
+   "kind": "table-cell",
+   "section": "Key Financial and Operating Metrics used in this Red Herring Prospectus",
+   "column_header": "Description",
+   "text": "Fixed Asset Turnover Ratio is calculated as Revenue from Operations divided by property, plant and equipment"
+  },
+  {
+   "key": "body/p103",
+   "stratum": "prose",
+   "location": "paragraph 103",
+   "kind": "paragraph",
+   "section": "Financial Data",
+   "column_header": null,
+   "text": "Unless indicated otherwise or the context requires otherwise, the financial information and financial ratios in this Red Herring Prospectus have been derived from the Restated Financial Statements. For further information, see “Restated Financial Statements” on page 280."
+  },
+  {
+   "key": "body/p106",
+   "stratum": "prose",
+   "location": "paragraph 106",
+   "kind": "paragraph",
+   "section": "Financial Data",
+   "column_header": null,
+   "text": "There are significant differences between Ind AS, Indian GAAP, US GAAP and IFRS. Our Company does not provide reconciliation of its financial information to IFRS or US GAAP. Our Company has not attempted to explain those differences or quantify their impact on the financial data included in this Red Herring Prospectus and it is urged that you consult your own advisors regarding such differences and their impact on our Company’s financial data. For details in connection with risks involving differences between Ind AS, U.S. GAAP and IFRS, see “Risk Factors – Significant differences exist between Indian accounting standard (“Ind AS”) and other accounting principles, such as international financial reporting standards (“IFRS”) and United States generally accepted accounting principles (“U.S. GAAP”), which may be material to investors’ assessments of our financial condition.” page 60. The degree to which the financial information included in this Red Herring Prospectus will provide meaningful information is entirely dependent on the reader’s level of familiarity with Indian accounting policies and practices, the Companies Act, 2013 and the SEBI ICDR Regulations. Any reliance by persons not familiar with Indian accounting policies and practices on the financial disclosures presented in this Red Herring Prospectus should accordingly be limited. Further, any figures sourced from third-party industry sources may be rounded off to other than two decimal points to conform to their respective sources."
+  },
+  {
+   "key": "body/p130",
+   "stratum": "prose",
+   "location": "paragraph 130",
+   "kind": "paragraph",
+   "section": "Exchange Rates",
+   "column_header": null,
+   "text": "The following table sets forth, for the periods indicated, information with respect to the exchange rate between the ₹and the respective foreign currencies:"
+  },
+  {
+   "key": "body/tbl21/r3c1",
+   "stratum": "negative",
+   "location": "table 21, row 3, col 1",
+   "kind": "table-cell",
+   "section": "The Offer",
+   "column_header": "Up to [●] Equity Shares of face value of ₹5 each for cash at price of ₹[●] per Equity Share (including a premium of [●] per Equity Share), aggregating up to ₹7,100.00 million",
+   "text": "Up to [●] Equity Shares of face value of ₹5 each aggregating up to ₹2,900.00 million"
+  },
+  {
+   "key": "body/tbl23/r3c1",
+   "stratum": "negative",
+   "location": "table 23, row 3, col 1",
+   "kind": "table-cell",
+   "section": "Aggregate pre-Offer and post-Offer shareholding of our Promoters, the members of our Promoter Group, the Promoter Selling Shareholders of our Company",
+   "column_header": "Name of the Shareholder",
+   "text": "Kushal Subbayya Hegde*"
+  },
+  {
+   "key": "body/tbl23/r10c1",
+   "stratum": "negative",
+   "location": "table 23, row 10, col 1",
+   "kind": "table-cell",
+   "section": "Aggregate pre-Offer and post-Offer shareholding of our Promoters, the members of our Promoter Group, the Promoter Selling Shareholders of our Company",
+   "column_header": "Name of the Shareholder",
+   "text": "Makalu Family Trust"
+  },
+  {
+   "key": "body/tbl25/r11c0",
+   "stratum": "negative",
+   "location": "table 25, row 11, col 0",
+   "kind": "table-cell",
+   "section": "Aggregate pre-Offer and post-Offer shareholding of our Promoters, members of our Promoter Group and the additional top 10 Shareholders of our Company",
+   "column_header": "Name",
+   "text": "Annapurna Family Trust"
+  },
+  {
+   "key": "body/p203",
+   "stratum": "prose",
+   "location": "paragraph 203",
+   "kind": "paragraph",
+   "section": "Summary of selected financial information",
+   "column_header": null,
+   "text": "The details of certain financial information as at and for the three-month period ended June 30, 2025 and Fiscals 2025, 2024 and 2023, as derived from the Restated Financial Statements are set forth below:"
+  },
+  {
+   "key": "body/tbl27/r3c0",
+   "stratum": "negative",
+   "location": "table 27, row 3, col 0",
+   "kind": "table-cell",
+   "section": "Summary of selected financial information",
+   "column_header": "Particulars",
+   "text": "Total borrowings(6)"
+  },
+  {
+   "key": "body/p211",
+   "stratum": "prose",
+   "location": "paragraph 211",
+   "kind": "paragraph",
+   "section": "Summary of selected financial information",
+   "column_header": null,
+   "text": "Earnings per Equity Share (Diluted) = restated profit attributable to the equity holders / weighted average number of equity shares adjusted for the effects of dilution."
+  },
+  {
+   "key": "body/p218",
+   "stratum": "prose",
+   "location": "paragraph 218",
+   "kind": "paragraph",
+   "section": "Qualifications of the Statutory Auditors which have not been given effect to in the Restated Financial Statements",
+   "column_header": null,
+   "text": "There are no qualifications included by the Statutory Auditors in their audit reports and hence no effect is required to be given in the Restated Financial Statements."
+  },
+  {
+   "key": "body/tbl28/r3c0",
+   "stratum": "negative",
+   "location": "table 28, row 3, col 0",
+   "kind": "table-cell",
+   "section": "Summary of outstanding litigations",
+   "column_header": "Name of entity",
+   "text": "Against our Company"
+  },
+  {
+   "key": "body/tbl28/r10c0",
+   "stratum": "negative",
+   "location": "table 28, row 10, col 0",
+   "kind": "table-cell",
+   "section": "Summary of outstanding litigations",
+   "column_header": "Name of entity",
+   "text": "Key Managerial Personnel (“KMPs”) (excluding our Executive Directors) (1)"
+  },
+  {
+   "key": "body/tbl28/r11c0",
+   "stratum": "negative",
+   "location": "table 28, row 11, col 0",
+   "kind": "table-cell",
+   "section": "Summary of outstanding litigations",
+   "column_header": "Name of entity",
+   "text": "By our KMPs"
+  },
+  {
+   "key": "body/tbl31/r2c1",
+   "stratum": "negative",
+   "location": "table 31, row 2, col 1",
+   "kind": "table-cell",
+   "section": "Summary of related party transactions",
+   "column_header": "Name of related party with whom transactions have taken place",
+   "text": "Waterloo Motors"
+  },
+  {
+   "key": "body/p254",
+   "stratum": "prose",
+   "location": "paragraph 254",
+   "kind": "paragraph",
+   "section": "Weighted average price at which the specified securities were acquired by our Promoter and the Promoter Selling Shareholders in the last one year preceding the date of this Red Herring Prospectus",
+   "column_header": null,
+   "text": "The weighted average price at which the specified securities were acquired by our Promoters and the Promoter Selling Shareholders in the last one year preceding the date of this Red Herring Prospectus is given below:"
+  },
+  {
+   "key": "body/p263",
+   "stratum": "prose",
+   "location": "paragraph 263",
+   "kind": "paragraph",
+   "section": "Weighted average cost of acquisition of all shares transacted in last one year, 18 months and three years preceding the date of this Red Herring Prospectus",
+   "column_header": null,
+   "text": "Weighted average cost of acquisition of all shares transacted in last one year, 18 months and three years preceding the date of this Red Herring Prospectus"
+  },
+  {
+   "key": "body/p276",
+   "stratum": "prose",
+   "location": "paragraph 276",
+   "kind": "paragraph",
+   "section": "Average cost of acquisition of Equity Shares by our Promoters and the Promoter Selling Shareholders",
+   "column_header": null,
+   "text": "**  As certified by Kirtane & Pandit LLP, Chartered Accountants, our Statutory Auditors, by way of their certificate dated December 10, 2025."
+  },
+  {
+   "key": "body/tbl36/r4c1",
+   "stratum": "negative",
+   "location": "table 36, row 4, col 1",
+   "kind": "table-cell",
+   "section": "Details of price at which specified securities of our Company were acquired by our Promoters, members of the Promoter Group, Promoter Selling Shareholders and Shareholders with the right to nominate Directors or any other special rights in the three years preceding the date of this Red Herring Prospectus",
+   "column_header": "Date of acquisition",
+   "text": "February 21, 2025"
+  },
+  {
+   "key": "body/tbl36/r5c2",
+   "stratum": "negative",
+   "location": "table 36, row 5, col 2",
+   "kind": "table-cell",
+   "section": "Details of price at which specified securities of our Company were acquired by our Promoters, members of the Promoter Group, Promoter Selling Shareholders and Shareholders with the right to nominate Directors or any other special rights in the three years preceding the date of this Red Herring Prospectus",
+   "column_header": "Number of equity shares acquired",
+   "text": "9,090,800"
+  },
+  {
+   "key": "body/tbl36/r15c1",
+   "stratum": "negative",
+   "location": "table 36, row 15, col 1",
+   "kind": "table-cell",
+   "section": "Details of price at which specified securities of our Company were acquired by our Promoters, members of the Promoter Group, Promoter Selling Shareholders and Shareholders with the right to nominate Directors or any other special rights in the three years preceding the date of this Red Herring Prospectus",
+   "column_header": "Date of acquisition",
+   "text": "December 17, 2024"
+  },
+  {
+   "key": "body/tbl37/r5c1",
+   "stratum": "negative",
+   "location": "table 37, row 5, col 1",
+   "kind": "table-cell",
+   "section": "Details of price at which specified securities of our Company were acquired by our Promoters, members of the Promoter Group, Promoter Selling Shareholders and Shareholders with the right to nominate Directors or any other special rights in the three years preceding the date of this Red Herring Prospectus",
+   "column_header": "Transferor",
+   "text": "Pushpa Kushal Hegde"
+  },
+  {
+   "key": "body/tbl37/r6c1",
+   "stratum": "negative",
+   "location": "table 37, row 6, col 1",
+   "kind": "table-cell",
+   "section": "Details of price at which specified securities of our Company were acquired by our Promoters, members of the Promoter Group, Promoter Selling Shareholders and Shareholders with the right to nominate Directors or any other special rights in the three years preceding the date of this Red Herring Prospectus",
+   "column_header": "Transferor",
+   "text": "Pushpa Kushal Hegde"
+  },
+  {
+   "key": "body/tbl40/r0c6",
+   "stratum": "negative",
+   "location": "table 40, row 0, col 6",
+   "kind": "table-cell",
+   "section": "We depend on certain customers for a significant portion of our revenue from operations. Our top 10 customers contributed to 53.97%, 52.54%, 57.10% and 58.99% of our revenue from operations for the three-month period ended June 30, 2025, and Fiscals 2025, 2024 and 2023, respectively. Any decrease in demand from such customers, the loss of such customers or our inability to diversify our customer base could have an adverse effect on our business, results of operations, financial condition and cash flows.",
+   "column_header": null,
+   "text": "Fiscal 2024"
+  },
+  {
+   "key": "body/tbl41/r2c2",
+   "stratum": "negative",
+   "location": "table 41, row 2, col 2",
+   "kind": "table-cell",
+   "section": "Our business is dependent on suppliers to procure our raw materials (top 10 suppliers contributed to 98.91%, 98.45%, 96.93% and 98.58% of our total cost of raw materials and components purchased for the three-month period ended June 30, 2025, and Fiscals 2025, 2024, and 2023, respectively). We have not entered into long-term agreements with these suppliers, and any loss of suppliers or interruptions in the timely delivery of raw materials or volatility in their prices could have an adverse impact on our business, financial condition, cash flows and results of operations.",
+   "column_header": "Three-month period ended June 30, 2025",
+   "text": "2,119.68"
+  },
+  {
+   "key": "body/p354",
+   "stratum": "prose",
+   "location": "paragraph 354",
+   "kind": "paragraph",
+   "section": "Any shortfall in the supply or availability of raw materials including aluminium or copper, which are our primary raw materials (and copper also being our principal raw material), or insulating materials, such as enamel and paper, or an increase in our such material costs, or other input costs, may adversely affect the pricing and supply of our products and have an adverse effect on our business, results of operations and financial condition.",
+   "column_header": null,
+   "text": "Our business depends significantly on price and availability of raw materials including the consistent supply of primary raw materials (i.e. copper, and aluminium, and copper also being our principal raw material), and insulating materials such as enamel and paper, which are essential components in manufacturing our products. Our primary raw materials are copper, and aluminium (copper also being our principal raw material), and our manufacturing processes require certain other raw materials such as enamel, insulating materials and packaging materials which constitute a significant portion of our total expenses. The following table sets forth the details of our total cost of raw materials consumed as a percentage of our total expenses for the period/ Fiscals indicated:"
+  },
+  {
+   "key": "body/tbl43/r0c0",
+   "stratum": "negative",
+   "location": "table 43, row 0, col 0",
+   "kind": "table-cell",
+   "section": "Any shortfall in the supply or availability of raw materials including aluminium or copper, which are our primary raw materials (and copper also being our principal raw material), or insulating materials, such as enamel and paper, or an increase in our such material costs, or other input costs, may adversely affect the pricing and supply of our products and have an adverse effect on our business, results of operations and financial condition.",
+   "column_header": null,
+   "text": "\nParticulars"
+  },
+  {
+   "key": "body/tbl43/r1c8",
+   "stratum": "negative",
+   "location": "table 43, row 1, col 8",
+   "kind": "table-cell",
+   "section": "Any shortfall in the supply or availability of raw materials including aluminium or copper, which are our primary raw materials (and copper also being our principal raw material), or insulating materials, such as enamel and paper, or an increase in our such material costs, or other input costs, may adversely affect the pricing and supply of our products and have an adverse effect on our business, results of operations and financial condition.",
+   "column_header": "Fiscal 2023",
+   "text": "% of total expenses"
+  },
+  {
+   "key": "body/tbl45/r2c5",
+   "stratum": "negative",
+   "location": "table 45, row 2, col 5",
+   "kind": "table-cell",
+   "section": "Any shortfall in the supply or availability of raw materials including aluminium or copper, which are our primary raw materials (and copper also being our principal raw material), or insulating materials, such as enamel and paper, or an increase in our such material costs, or other input costs, may adversely affect the pricing and supply of our products and have an adverse effect on our business, results of operations and financial condition.",
+   "column_header": "Fiscal 2024",
+   "text": "9,837.40"
+  },
+  {
+   "key": "body/tbl46/r2c7",
+   "stratum": "negative",
+   "location": "table 46, row 2, col 7",
+   "kind": "table-cell",
+   "section": "Any shortfall in the supply or availability of raw materials including aluminium or copper, which are our primary raw materials (and copper also being our principal raw material), or insulating materials, such as enamel and paper, or an increase in our such material costs, or other input costs, may adversely affect the pricing and supply of our products and have an adverse effect on our business, results of operations and financial condition.",
+   "column_header": "Fiscal 2023",
+   "text": "2,977.48"
+  },
+  {
+   "key": "body/p374",
+   "stratum": "prose",
+   "location": "paragraph 374",
+   "kind": "paragraph",
+   "section": "A significant portion of our revenue from operations i.e. 71.73%, 74.79%, 75.17% and 79.08% of our operating revenue for the three-month period ended June 30, 2025 and Fiscals 2025, 2024 and 2023, respectively is attributable to the power sector (generation, transmission and distribution) industry (“Power Sector”). Any economic cyclicality coupled with reduced demand or negative trend in the Power Sector industry or other industries that we operate in, could adversely affect our business, results of operations and financial condition.",
+   "column_header": null,
+   "text": "A significant portion of our revenue from operations i.e. 71.73%, 74.79%, 75.17% and 79.08% of our operating revenue for the three-month period ended June 30, 2025 and Fiscals 2025, 2024 and 2023, respectively is attributable to the power sector (generation, transmission and distribution) industry (“Power Sector”). Any economic cyclicality coupled with reduced demand or negative trend in the Power Sector industry or other industries that we operate in, could adversely affect our business, results of operations and financial condition."
+  },
+  {
+   "key": "body/tbl47/r3c7",
+   "stratum": "negative",
+   "location": "table 47, row 3, col 7",
+   "kind": "table-cell",
+   "section": "A significant portion of our revenue from operations i.e. 71.73%, 74.79%, 75.17% and 79.08% of our operating revenue for the three-month period ended June 30, 2025 and Fiscals 2025, 2024 and 2023, respectively is attributable to the power sector (generation, transmission and distribution) industry (“Power Sector”). Any economic cyclicality coupled with reduced demand or negative trend in the Power Sector industry or other industries that we operate in, could adversely affect our business, results of operations and financial condition.",
+   "column_header": "Fiscal 2023",
+   "text": "2,023.98"
+  },
+  {
+   "key": "body/tbl48/r0c1",
+   "stratum": "negative",
+   "location": "table 48, row 0, col 1",
+   "kind": "table-cell",
+   "section": "A significant portion of our revenue from operations i.e. 71.73%, 74.79%, 75.17% and 79.08% of our operating revenue for the three-month period ended June 30, 2025 and Fiscals 2025, 2024 and 2023, respectively is attributable to the power sector (generation, transmission and distribution) industry (“Power Sector”). Any economic cyclicality coupled with reduced demand or negative trend in the Power Sector industry or other industries that we operate in, could adversely affect our business, results of operations and financial condition.",
+   "column_header": null,
+   "text": "Three-month period ended June 30, 2025"
+  },
+  {
+   "key": "body/tbl49/r3c3",
+   "stratum": "negative",
+   "location": "table 49, row 3, col 3",
+   "kind": "table-cell",
+   "section": "We derive a substantial portion of our revenue (more than 70% in each of the three-month period ended June 30, 2025, and Fiscals 2025, 2024 and 2023) from the sale of specialized magnet winding wires. Any reduction in demand for our key products would have a material adverse effect on our business, financial condition, results of operations and cash flows.",
+   "column_header": "Fiscal 2025",
+   "text": "4,550.79"
+  },
+  {
+   "key": "body/p395",
+   "stratum": "prose",
+   "location": "paragraph 395",
+   "kind": "paragraph",
+   "section": "Our operations are significantly dependent on our manufacturing facilities. Any unscheduled, unplanned or prolonged disruption, slowdown or shutdown of our manufacturing facilities could have a material adverse effect on our business, financial condition, cash flows and results of operations.",
+   "column_header": null,
+   "text": "Our operations are significantly dependent on our manufacturing facilities. Any unscheduled, unplanned or prolonged disruption, slowdown or shutdown of our manufacturing facilities could have a material adverse effect on our business, financial condition, cash flows and results of operations."
+  },
+  {
+   "key": "body/p400",
+   "stratum": "prose",
+   "location": "paragraph 400",
+   "kind": "paragraph",
+   "section": "We have encountered delays in the past and may encounter delays or time cost overruns in the completion of the construction of our manufacturing facility at Supa, Ahilyanagar (formerly Ahmednagar) in Maharashtra, which may adversely affect our business, result of operations, financial condition and cash flows.",
+   "column_header": null,
+   "text": "Our manufacturing unit at Supa, Ahilyanagar (formerly Ahmednagar) in Maharashtra was originally anticipated to commence operations by March 31, 2025, however, we have experienced delays in setting up our Supa Facility and operations have commenced in September 2025. Further, the enhancement in the annual installed capacity from 8,800 MT to 12,000 MT at our manufacturing unit at Supa, Ahilyanagar, led to an increase in cost of the project. The delay in project completion was caused by delay in activities like placement of purchase orders, delivery and installation of plant and machinery, mechanical, electrical and plumbing, utility and other equipment. We may face further delays or cost overruns in completion of further phases of construction of our Supa Facility in the future on account of several factors, including delays in receiving governmental, statutory, and other regulatory approvals and permits, and delays in or non-delivery of construction equipment by suppliers, among others."
+  },
+  {
+   "key": "body/p402",
+   "stratum": "prose",
+   "location": "paragraph 402",
+   "kind": "paragraph",
+   "section": "We are subject to strict quality requirements and any product defect issues or failure by us or our raw material suppliers to comply with quality standards may lead to the cancellation of existing and future orders, recalls or exposure to potential product liability claims.",
+   "column_header": null,
+   "text": "We are subject to strict quality requirements and any product defect issues or failure by us or our raw material suppliers to comply with quality standards may lead to the cancellation of existing and future orders, recalls or exposure to potential product liability claims."
+  },
+  {
+   "key": "body/p403",
+   "stratum": "prose",
+   "location": "paragraph 403",
+   "kind": "paragraph",
+   "section": "We are subject to strict quality requirements and any product defect issues or failure by us or our raw material suppliers to comply with quality standards may lead to the cancellation of existing and future orders, recalls or exposure to potential product liability claims.",
+   "column_header": null,
+   "text": "We face an inherent business risk of exposure to product defects and subsequent liability claims if the use of any of our products results in personal injury or property damage. We and our component suppliers may not be able to meet regulatory quality standards in India or abroad, or the quality standards imposed by our customers and applicable to our manufacturing processes, which could have a material adverse effect on our business, financial condition, results of operations and cash flows. We are also required to obtain material approvals and certifications for product quality verification in India and other jurisdictions. Further, our manufacturing facilities are subjected to rigorous quality control checks, accreditation requirements, and periodic inspections from various regulatory agencies that have issued us product and system certifications. If any of our products do not meet regulatory standards or are defective, we may be, inter alia, (i) responsible for damages relating to any defective products, (ii) required to replace, recall or redesign such products, (iii) incur significant costs to defend any such claims or (iv) restricted to produce or market such products to our customers."
+  },
+  {
+   "key": "body/tbl50/r3c0",
+   "stratum": "negative",
+   "location": "table 50, row 3, col 0",
+   "kind": "table-cell",
+   "section": "We export our products to various countries and our revenue from outside India represented 30.75%, 33.20%, 39.15% and 43.93% of our sale of products for the three-month period ended June 30, 2025, and Fiscals 2025, 2024 and 2023, respectively. Any adverse events affecting these countries or changes in laws and duties in relation to exports could have an adverse impact on our business, revenue operations, financial condition and cash flows.",
+   "column_header": "Particulars",
+   "text": "Customers outside India"
+  },
+  {
+   "key": "body/p417",
+   "stratum": "prose",
+   "location": "paragraph 417",
+   "kind": "paragraph",
+   "section": "We export our products to various countries and our revenue from outside India represented 30.75%, 33.20%, 39.15% and 43.93% of our sale of products for the three-month period ended June 30, 2025, and Fiscals 2025, 2024 and 2023, respectively. Any adverse events affecting these countries or changes in laws and duties in relation to exports could have an adverse impact on our business, revenue operations, financial condition and cash flows.",
+   "column_header": null,
+   "text": "Further, the United States have recently introduced tariff hikes on its imports from India. Electrical components, classified under the Indian customs heading (“CTS”) 8544, corresponding to the harmonised tariff schedule (“HTS”) 8544 of the United States, are subject to a reciprocal tariff of 25% and an additional tariff of 25%, totalling a combined tariff rate of 50% when imported to the United States. However, if a product is specifically covered under Section 232 of the Trade Expansion Act, 1962 (“Section 232 Tariffs”) then the tariff rates of 25% or 50%, as applicable, is applicable and such product would not be applicable to reciprocal and additional tariffs. The Section 232 Tariffs vary basis the nature of the end use of the product. The products of our Company in most cases would be classified under HTS 8544, which would be subject to a total tariff of 50% except for instance, in relation to products under HTS 8,544.30.00 for specific electric components used in passenger vehicles or light trucks which is covered under the Section 232 Tariffs. This increase in tariff rate could lead to a reduction in demand and have a material adverse effect on our business, financial condition, results of operations, and cash flows."
+  },
+  {
+   "key": "body/tbl51/r0c0",
+   "stratum": "negative",
+   "location": "table 51, row 0, col 0",
+   "kind": "table-cell",
+   "section": "We have experienced negative cash flows from operating activities in the past. Any negative cash flows in the future would adversely affect our cash flow requirements, which may adversely affect our ability to operate our business and implement our growth plans, thereby affecting our financial condition.",
+   "column_header": null,
+   "text": "Particulars"
+  },
+  {
+   "key": "body/p426",
+   "stratum": "prose",
+   "location": "paragraph 426",
+   "kind": "paragraph",
+   "section": "If we fail to comply with the applicable regulations and rules prescribed by the Government of India and the relevant statutory or regulatory bodies or fail to obtain, maintain or renew our statutory and regulatory licenses, permits and approvals required for our business, our results of operations and cash flows may be adversely affected.",
+   "column_header": null,
+   "text": "We are required to obtain and maintain a number of statutory and regulatory licenses, registrations, permits and approvals under central, state and local government rules in India, for carrying out our business and for our manufacturing facility, among other things, relating to occupational health and safety (including laws regulating the generation, storage, handling, use and transportation of waste materials, the emission and discharge of hazardous waste materials into soil, air or water, and the health and safety of employees) and mandatory certification requirements for our facilities and products. For further information on the nature of the material approvals and licenses required for our business and for information on the material approvals applied for, see “Government and Other Approvals” on page 393. In addition, we will need to apply for renewal of certain approvals, licenses registrations and permits, which expire or seek new approvals, licenses, registrations and permits from time to time, as and when required in the ordinary course of our business. While there has not been any non-compliance during the three-month period ended June 30, 2025 or Fiscals 2025, 2024, and 2023, there can be no assurance that we will be in compliance at all times with such laws, regulations and the terms and conditions of any such consents or permits. If we violate or fail to comply adequately with these requirements, we could be fined or otherwise sanctioned by the relevant regulators."
+  },
+  {
+   "key": "body/p443",
+   "stratum": "prose",
+   "location": "paragraph 443",
+   "kind": "paragraph",
+   "section": "We are unable to trace some of our historical corporate records including in relation to certain allotments made by our Company. Further, certain corporate records have errors, and certain corporate filings have been made with delays. We cannot assure you that no legal proceedings or regulatory actions will be initiated against our Company in the future in relation to these matters, which may impact our financial condition and reputation.",
+   "column_header": null,
+   "text": "Form 32 along with the corresponding RoC challan for regularisation as director in relation to Rohit Kushal Hegde dated September 21, 2000;"
+  },
+  {
+   "key": "body/tbl53/r16c3",
+   "stratum": "negative",
+   "location": "table 53, row 16, col 3",
+   "kind": "table-cell",
+   "section": "We are unable to trace some of our historical corporate records including in relation to certain allotments made by our Company. Further, certain corporate records have errors, and certain corporate filings have been made with delays. We cannot assure you that no legal proceedings or regulatory actions will be initiated against our Company in the future in relation to these matters, which may impact our financial condition and reputation.",
+   "column_header": "The financial statements of FY 1980 and FY 1981.",
+   "text": "Form SH- 4 for transfer of shares by Kushal Hegde, Rajesh Hegde and Rohit Hegde to Pushpa Hegde."
+  },
+  {
+   "key": "body/p471",
+   "stratum": "prose",
+   "location": "paragraph 471",
+   "kind": "paragraph",
+   "section": "Any failure in arranging adequate working capital for our operations or furnishing performance bank guarantees may adversely affect our business, results of operations, cash flows and financial condition.",
+   "column_header": null,
+   "text": "Any failure in arranging adequate working capital for our operations or furnishing performance bank guarantees may adversely affect our business, results of operations, cash flows and financial condition."
+  },
+  {
+   "key": "body/p482",
+   "stratum": "prose",
+   "location": "paragraph 482",
+   "kind": "paragraph",
+   "section": "Our Company is involved in certain outstanding legal and regulatory proceedings. Any adverse decision in such proceedings may have an adverse effect on our business, financial condition, cash flows and results of operations.",
+   "column_header": null,
+   "text": "There are outstanding legal and regulatory proceedings involving our Company which are pending at different levels of adjudication before various courts, tribunals and other authorities. Such proceedings could divert the management’s time and attention and consume financial resources in their defence or prosecution. The amounts claimed in these proceedings have been disclosed to the extent that such amounts are ascertainable and quantifiable and include amounts claimed jointly and severally, as applicable. Any unfavourable decision in connection with such proceedings, individually or in the aggregate, could adversely affect our reputation, continuity of our management, business, cash flows, financial condition and results of operations. The summary of such outstanding material legal and regulatory proceedings as on the date of this Red Herring Prospectus is set out below:"
+  },
+  {
+   "key": "body/tbl56/r4c1",
+   "stratum": "negative",
+   "location": "table 56, row 4, col 1",
+   "kind": "table-cell",
+   "section": "Under-utilization of our manufacturing capacities and an inability to effectively utilize our manufacturing capacities could have an adverse effect on our business, future prospects and future financial performance.",
+   "column_header": "Manufacturing Unit/ Product",
+   "text": "Total Taloja Unit No 1"
+  },
+  {
+   "key": "body/p526",
+   "stratum": "contact",
+   "location": "paragraph 526",
+   "kind": "paragraph",
+   "section": "Under-utilization of our manufacturing capacities and an inability to effectively utilize our manufacturing capacities could have an adverse effect on our business, future prospects and future financial performance.",
+   "column_header": null,
+   "text": "The Company is expanding by setting up a plant at Plot No. F-223, Supa Parner Industrial Park, Mauje Palve Khurd, Taluka Parner, Dist – Ahmednagar, Maharashtra – 414 301. The proposed plant will be developed in phases: Phase I, named Alpha I, with an installed capacity of 12,000 MT per annum, and Phase II, named Beta I, with a proposed installed capacity of 18,000 MT per annum. Currently, a consent to operate dated September 19, 2025, has been obtained from the Maharashtra Pollution Control Board for Phase I CTO and commercial production of Phase I commenced in September 2025. Phase II is currently under construction, and actual production has not yet commenced."
+  },
+  {
+   "key": "body/p536",
+   "stratum": "prose",
+   "location": "paragraph 536",
+   "kind": "paragraph",
+   "section": "We have incurred indebtedness and are subject to certain restrictive covenants under the terms of our financing agreements, which may limit our ability to seek additional financing or undertake certain business actions. Any inability to comply with repayment obligations and/or other covenants in our financing agreements could adversely affect our business and financial condition.",
+   "column_header": null,
+   "text": "As of October 31, 2025, we had total borrowings (including fund-based borrowings and non-fund based borrowings and consisting of secured borrowings including term loans and working capital facilities, and unsecured borrowings including working capital facilities and unsecured loans) of ₹ 5,194.25 million. For further details, see “Financial Indebtedness” on page 385. Our ability to pay interest and repay the principal of our indebtedness is dependent upon our ability to generate sufficient cash flows to service such debt. Any additional indebtedness we incur may have significant consequences, including, requiring us to use a significant portion of our cash flow from operations and other available cash to service our indebtedness, thereby reducing the funds available for other purposes, including reducing our flexibility in planning for or reacting to changes in our business, competition pressures and market conditions."
+  },
+  {
+   "key": "body/tbl59/r1c7",
+   "stratum": "negative",
+   "location": "table 59, row 1, col 7",
+   "kind": "table-cell",
+   "section": "There have been certain instances of delays in payment of statutory dues by us in the past. Any delay in payment of statutory dues by us in future, may result in the imposition of penalties and in turn may have an adverse effect on our business, financial condition, results of operation and cash flows.",
+   "column_header": "Fiscal 2024",
+   "text": "Total Dues (in millio\nns)"
+  },
+  {
+   "key": "body/p559",
+   "stratum": "prose",
+   "location": "paragraph 559",
+   "kind": "paragraph",
+   "section": "There have been certain instances of delays in payment of statutory dues by us in the past. Any delay in payment of statutory dues by us in future, may result in the imposition of penalties and in turn may have an adverse effect on our business, financial condition, results of operation and cash flows.",
+   "column_header": null,
+   "text": "The above-mentioned instances of delay in the payment of statutory dues were primarily due to operational reasons that were beyond the control of our Company. For instance, the delay in the payment of dues in respect of provident fund and employees state insurance were on account of payment of salaries in arrears and the delay in relation to payment of tax deducted at source was on account of belated receipt of invoices. Our Company has adopted various measures, including assigning the responsibility of maintaining checks and balances across relevant processes, with the specific objective of preventing such statutory delays. Additionally, we aim to conduct awareness sessions for the finance and human resources teams to improve understanding and compliance with applicable statutory obligations and implementing an internal escalation mechanism to identify and resolve operational gaps on a timely basis. Additionally, close coordination with suppliers and service providers has been initiated to ensure timely submission of invoices and supporting documentation, thereby facilitating accurate and timely tax computations and remittances within prescribed timelines. While no penalty or fine has been levied by the appropriate authorities against us for the aforementioned delays, we cannot assure you that we will not be subject to such penalties and fines in the future which may have a material adverse impact on our financial condition and cash flows."
+  },
+  {
+   "key": "body/p565",
+   "stratum": "prose",
+   "location": "paragraph 565",
+   "kind": "paragraph",
+   "section": "We have substantial requirements for power and fuel for our manufacturing facilities and any disruption in the supply or increase in tariff may adversely affect our business, results of operations, and financial condition.",
+   "column_header": null,
+   "text": "We have power and fuel requirements for our manufacturing facilities. In a situation where our costs towards power and fuel were to increase or if there were any disruption in their supply to our manufacturing facilities, it could have an adverse effect on our business, results of operations, and financial condition. Set forth below are details in relation to our power and fuel costs for the period/ Fiscals indicated:"
+  },
+  {
+   "key": "body/p571",
+   "stratum": "prose",
+   "location": "paragraph 571",
+   "kind": "paragraph",
+   "section": "We are subject to counterparty credit risk and any delay in receiving payments or non-receipt of payments from our customers could have an adverse effect on our business, results of operations, financial condition and cash flows.",
+   "column_header": null,
+   "text": "We are subject to counterparty credit risk and any delay in receiving payments or non-receipt of payments from our customers could have an adverse effect on our business, results of operations, financial condition and cash flows."
+  },
+  {
+   "key": "body/tbl62/r8c0",
+   "stratum": "negative",
+   "location": "table 62, row 8, col 0",
+   "kind": "table-cell",
+   "section": "Our ability to access capital at attractive costs depends on our credit ratings. Non-availability of credit ratings or a poor rating may restrict our access to capital and thereby adversely affect our business, financial conditions, cash flows and results of operations.",
+   "column_header": "Date",
+   "text": "November 30, 2022"
+  },
+  {
+   "key": "body/p586",
+   "stratum": "prose",
+   "location": "paragraph 586",
+   "kind": "paragraph",
+   "section": "Our ability to access capital at attractive costs depends on our credit ratings. Non-availability of credit ratings or a poor rating may restrict our access to capital and thereby adversely affect our business, financial conditions, cash flows and results of operations.",
+   "column_header": null,
+   "text": "An inability to secure future financing on attractive terms or at all may adversely impact our strategic initiatives and our business prospects. Credit ratings reflect the opinion of the rating agency on our management, track record, diversified clientele, increase in scale and operations and margins, medium term revenue visibility and operating cycle."
+  },
+  {
+   "key": "body/p592",
+   "stratum": "prose",
+   "location": "paragraph 592",
+   "kind": "paragraph",
+   "section": "Exchange rate fluctuations may adversely affect our business, financial conditions, cash flows and results of operations.",
+   "column_header": null,
+   "text": "We undertake certain exchange rate hedging activities due to the size of our operations. We enter into hedging forward contracts, and further, we may in the future implement hedging strategies to mitigate these risks. However, these hedging strategies may not eliminate our exposure to foreign exchange rate fluctuations and involve costs and risks of their own, such as ongoing management time and expertise, external costs to implement the strategy and potential accounting implications."
+  },
+  {
+   "key": "body/p595",
+   "stratum": "contact",
+   "location": "paragraph 595",
+   "kind": "paragraph",
+   "section": "Some of our manufacturing facilities and our Corporate Office are leased by us. In the event we lose or are unable to renew such leasehold rights, our business, financial condition and results of operations may be adversely affected.",
+   "column_header": null,
+   "text": "Some of our manufacturing facilities and our Corporate Office are leased by us. In the event we lose or are unable to renew such leasehold rights, our business, financial condition and results of operations may be adversely affected."
+  },
+  {
+   "key": "body/p596",
+   "stratum": "contact",
+   "location": "paragraph 596",
+   "kind": "paragraph",
+   "section": "Some of our manufacturing facilities and our Corporate Office are leased by us. In the event we lose or are unable to renew such leasehold rights, our business, financial condition and results of operations may be adversely affected.",
+   "column_header": null,
+   "text": "Some of our properties, including manufacturing facilities and our Corporate Office are leased by us. Our manufacturing facility at Unit 3 located at Chakan, Pune, Maharashtra, is on a leasehold basis for a period of three years with effect from August 2, 2023. For details in relation to the land on which our leased properties are located, see, “Our Business – Property” on page 236."
+  },
+  {
+   "key": "body/p617",
+   "stratum": "prose",
+   "location": "paragraph 617",
+   "kind": "paragraph",
+   "section": "We depend on our Individual Promoters, Senior Management, Key Management Personnel and qualified and skilled personnel with technical expertise, and if we are unable to recruit and retain senior management, qualified and skilled personnel, our business and our ability to operate or grow our business maybe adversely affected.",
+   "column_header": null,
+   "text": "We are led by our Individual Promoters Kushal Subbayya Hegde, Pushpa Kushal Hegde, Rajesh Kushal Hegde, Rohit Kushal Hegde and Rakhi Girija Shetty. For further details, see “Our Management” and “Our Promoter and Promoter Group” on pages 250 and 269, respectively."
+  },
+  {
+   "key": "body/p628",
+   "stratum": "prose",
+   "location": "paragraph 628",
+   "kind": "paragraph",
+   "section": "We depend on our Individual Promoters, Senior Management, Key Management Personnel and qualified and skilled personnel with technical expertise, and if we are unable to recruit and retain senior management, qualified and skilled personnel, our business and our ability to operate or grow our business maybe adversely affected.",
+   "column_header": null,
+   "text": "Competition for individuals with specialized knowledge and experience is intense in our industry. Further, as we expect to continue to expand our operations and develop new products, we will need to continue to attract and retain experienced management personnel. If we are unable to retain or attract such members or are unable to locate suitable"
+  },
+  {
+   "key": "body/p632",
+   "stratum": "prose",
+   "location": "paragraph 632",
+   "kind": "paragraph",
+   "section": "Apart from two of our Directors, none of our Directors have any prior experience of directorships in listed companies. Post listing of the Equity Shares on the Stock Exchanges, our Company will be subject to the applicable regulatory requirements of a listed company, including regulations prescribed under SEBI Listing Regulations and the Companies Act. Any non-compliance with the regulatory requirements, due to lack of experience or otherwise, may subject us to adverse regulatory actions.",
+   "column_header": null,
+   "text": "Apart from two of our Directors, none of our Directors have any prior experience of directorships in listed companies. Post listing of the Equity Shares on the Stock Exchanges, our Company will be subject to the applicable regulatory requirements of a listed company, including regulations prescribed under SEBI Listing Regulations and the Companies Act. Any non-compliance with the regulatory requirements, due to lack of experience or otherwise, may subject us to adverse regulatory actions."
+  },
+  {
+   "key": "body/p636",
+   "stratum": "prose",
+   "location": "paragraph 636",
+   "kind": "paragraph",
+   "section": "We currently avail benefits under certain Government incentive schemes. Cancellation or our inability to meet the conditions under such schemes may result in adversely affect our business operations, cash flows, results of operations and financial condition.",
+   "column_header": null,
+   "text": "We currently avail benefits under certain Government incentive schemes. Cancellation or our inability to meet the conditions under such schemes may result in adversely affect our business operations, cash flows, results of operations and financial condition."
+  },
+  {
+   "key": "body/p642",
+   "stratum": "prose",
+   "location": "paragraph 642",
+   "kind": "paragraph",
+   "section": "We currently avail benefits under certain Government incentive schemes. Cancellation or our inability to meet the conditions under such schemes may result in adversely affect our business operations, cash flows, results of operations and financial condition.",
+   "column_header": null,
+   "text": "Our profitability will be affected to the extent that such benefits will not be available beyond the periods currently contemplated. Our profitability may be further affected in the future if any of such benefits are reduced or withdrawn prematurely or if we are subject to any dispute with the tax authorities in relation to these benefits or in the event we are unable to comply with the conditions required to be complied with in order to avail ourselves of each of these benefits. For instance, the Government of India through Ministry of Commerce and Industry, Department of Commerce, Directorate General of Foreign Trade had issued a notification dated March 20, 2025 bearing reference number 66/2024-25, pursuant to which the support under the RoDTEP scheme has been retrospectively discontinued"
+  },
+  {
+   "key": "body/tbl66/r2c2",
+   "stratum": "negative",
+   "location": "table 66, row 2, col 2",
+   "kind": "table-cell",
+   "section": "Our insurance coverage may not be sufficient or adequate to protect us against all material hazards, which may adversely affect our business, results of operations, financial condition and cash flows",
+   "column_header": "Insurance Coverage** (in ₹ million)",
+   "text": "5,526.27"
+  },
+  {
+   "key": "body/p677",
+   "stratum": "prose",
+   "location": "paragraph 677",
+   "kind": "paragraph",
+   "section": "Any variation in the utilization of the Net Proceeds as disclosed in this Red Herring Prospectus shall be subject to certain compliance requirements, including prior approval of the shareholders of our Company.",
+   "column_header": null,
+   "text": "Any variation in the utilization of the Net Proceeds as disclosed in this Red Herring Prospectus shall be subject to certain compliance requirements, including prior approval of the shareholders of our Company."
+  },
+  {
+   "key": "body/p678",
+   "stratum": "prose",
+   "location": "paragraph 678",
+   "kind": "paragraph",
+   "section": "Any variation in the utilization of the Net Proceeds as disclosed in this Red Herring Prospectus shall be subject to certain compliance requirements, including prior approval of the shareholders of our Company.",
+   "column_header": null,
+   "text": "We propose to utilize the Net Proceeds towards (i) Prepayment and/or repayment, in full or in part, of all or a portion of certain outstanding borrowings availed by our Company; (ii) Funding the capital expenditure requirements of our Company towards (b) purchasing and setting up of new machinery for expansion at our Supa Facility; and (b) purchasing and setting up of new machinery at Unit 2 in Chakan, Pune in Maharashtra; (iii) Funding the capital expenditure requirements of our Company towards purchasing and setting up of a rooftop solar power plant for power generation at our Supa Facility; and (iv) general corporate purposes. For further details of the proposed objects of the Offer, see “Objects of the Offer” on page 106. Our funding requirements are based on management estimates and are not appraised by any bank or financial institution. The deployment of the Net Proceeds will be at the discretion of our Board. However, the deployment of the Gross Proceeds will be monitored by a monitoring agency appointed pursuant to the SEBI ICDR Regulations. Further, we cannot determine with any certainty if we would require the Net Proceeds to meet another expenditure or fund any exigencies arising out of the competitive environment, business conditions, economic conditions or other factors beyond our control. In accordance with the Companies Act, 2013 and the SEBI ICDR Regulations, we cannot undertake variation in the utilization of the Net Proceeds as disclosed in this Red Herring Prospectus without obtaining the approval of the Shareholders through a special resolution. In the event of any such circumstances that require us to vary the disclosed utilization of the Net Proceeds, we may not be able to obtain the approval of the Shareholders in a timely manner, or at all. Any delay or inability in obtaining such approval of the Shareholders may adversely affect our business or operations. Further, our Promoters would be required to provide an exit opportunity to the shareholders of our Company who do not agree with our proposal to modify the objects of the Offer, at a price and manner as prescribed by SEBI."
+  },
+  {
+   "key": "body/p683",
+   "stratum": "prose",
+   "location": "paragraph 683",
+   "kind": "paragraph",
+   "section": "Our ability to pay dividends in the future will depend on our future cash flows, working capital requirements, capital expenditures and financial condition.",
+   "column_header": null,
+   "text": "We have not declared and paid dividend in the previous three Fiscals. For details, see section titled “Dividend Policy” on page 279. However, the amount of our future dividend payments, if any, will depend on our future earnings, cash flows, financial condition, working capital requirements, capital expenditures, applicable Indian legal restrictions and other factors. There can be no assurance that we will pay dividends. We may decide to retain all of our earnings to finance the development and expansion of our business and, therefore, may not declare dividends on our Equity Shares. Additionally, in the future, we may be restricted by the terms of our financing agreements in making dividend payments unless otherwise agreed with our lenders."
+  },
+  {
+   "key": "body/p688",
+   "stratum": "prose",
+   "location": "paragraph 688",
+   "kind": "paragraph",
+   "section": "Our Company will not receive any proceeds from the Offer for Sale. Our Promoter Selling Shareholders will receive the proceeds from the Offer for Sale.",
+   "column_header": null,
+   "text": "Our Company will not receive any proceeds from the Offer for Sale. Our Promoter Selling Shareholders will receive the proceeds from the Offer for Sale."
+  },
+  {
+   "key": "body/tbl68/r18c0",
+   "stratum": "negative",
+   "location": "table 68, row 18, col 0",
+   "kind": "table-cell",
+   "section": "SECTION III – INTRODUCTION THE OFFER",
+   "column_header": "Offer of Equity Shares (1)",
+   "text": "C) Retail Portion(4)(5)"
+  },
+  {
+   "key": "body/tbl69/r0c3",
+   "stratum": "negative",
+   "location": "table 69, row 0, col 3",
+   "kind": "table-cell",
+   "section": "SECTION III – INTRODUCTION THE OFFER",
+   "column_header": null,
+   "text": "Aggregate amount of Offer for Sale (₹ in million)"
+  },
+  {
+   "key": "body/p707",
+   "stratum": "prose",
+   "location": "paragraph 707",
+   "kind": "paragraph",
+   "section": "SECTION III – INTRODUCTION THE OFFER",
+   "column_header": null,
+   "text": "Our Company, in consultation with the BRLMs, may allocate up to 60% of the QIB Portion to Anchor Investors on a discretionary basis in accordance with the SEBI ICDR Regulations. 40% of the Anchor Investor Portion shall be reserved in the following manner (i) 33.33% of the Anchor Investor Portion shall be reserved for domestic Mutual Funds; and (ii) 6.67% of the Anchor Investor Portion shall be reserved for Life Insurance Companies and Pension Funds, subject to valid Bids being received from domestic Mutual Funds, Life Insurance Companies and Pension Funds, as applicable, at or above the Anchor Investor Allocation Price. Any under-subscription in the Life Insurance Companies and Pension Funds category specified in (ii) above may be allocated to domestic Mutual Funds, in accordance with the SEBI ICDR Regulations.. In the event of under-subscription in the Anchor Investor Portion, the remaining Equity Shares shall be added to the Net QIB Portion. Further, 5% of the Net QIB Portion shall be available for allocation on a proportionate basis to Mutual Funds only, and the remainder of the Net QIB Portion shall be available for allocation on a proportionate basis to all QIB Bidders (other than Anchor Investors), including Mutual Funds, subject to valid Bids being received at or above the Offer Price. However, if the aggregate demand from Mutual Funds is less than as specified above, the balance Equity Shares available for Allotment in the Mutual Fund Portion will be added to the Net QIB Portion and allocated proportionately to the QIB Bidders (other than Anchor Investors) in proportion to their Bids. For further information, see “Offer Procedure” on page 420."
+  },
+  {
+   "key": "body/p718",
+   "stratum": "contact",
+   "location": "paragraph 718",
+   "kind": "paragraph",
+   "section": "Registered Office of our Company KSH International Limited",
+   "column_header": null,
+   "text": "Registered Office of our Company KSH International Limited"
+  },
+  {
+   "key": "body/p720",
+   "stratum": "contact",
+   "location": "paragraph 720",
+   "kind": "paragraph",
+   "section": "Registered Office of our Company KSH International Limited",
+   "column_header": null,
+   "text": "Pune – 410 501"
+  },
+  {
+   "key": "body/p722",
+   "stratum": "contact",
+   "location": "paragraph 722",
+   "kind": "paragraph",
+   "section": "Registered Office of our Company KSH International Limited",
+   "column_header": null,
+   "text": "For details of change in our registered office, see “History and Certain Corporate Matters – Changes in our Registered Office” on page 243."
+  },
+  {
+   "key": "body/p723",
+   "stratum": "contact",
+   "location": "paragraph 723",
+   "kind": "paragraph",
+   "section": "Corporate Office of our Company KSH International Limited",
+   "column_header": null,
+   "text": "Corporate Office of our Company KSH International Limited"
+  },
+  {
+   "key": "body/p732",
+   "stratum": "contact",
+   "location": "paragraph 732",
+   "kind": "paragraph",
+   "section": "Registrar of Companies, Maharashtra at Pune",
+   "column_header": null,
+   "text": "PCNTDA Green Building Block A 1st and 2nd floor Near Akurdi Railway Station Akurdi, Pune – 411 044 Maharashtra, India"
+  },
+  {
+   "key": "body/tbl70/r0c0",
+   "stratum": "structural",
+   "location": "table 70, row 0, col 0",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": null,
+   "text": "Name"
+  },
+  {
+   "key": "body/tbl70/r0c1",
+   "stratum": "structural",
+   "location": "table 70, row 0, col 1",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": null,
+   "text": "Designation"
+  },
+  {
+   "key": "body/tbl70/r0c2",
+   "stratum": "structural",
+   "location": "table 70, row 0, col 2",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": null,
+   "text": "DIN"
+  },
+  {
+   "key": "body/tbl70/r0c3",
+   "stratum": "structural",
+   "location": "table 70, row 0, col 3",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": null,
+   "text": "Address"
+  },
+  {
+   "key": "body/tbl70/r1c0",
+   "stratum": "structural",
+   "location": "table 70, row 1, col 0",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Name",
+   "text": "Kushal Subbayya Hegde"
+  },
+  {
+   "key": "body/tbl70/r1c1",
+   "stratum": "structural",
+   "location": "table 70, row 1, col 1",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Designation",
+   "text": "Chairman\tand\tExecutive Director"
+  },
+  {
+   "key": "body/tbl70/r1c2",
+   "stratum": "structural",
+   "location": "table 70, row 1, col 2",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "DIN",
+   "text": "00135070"
+  },
+  {
+   "key": "body/tbl70/r1c3",
+   "stratum": "structural",
+   "location": "table 70, row 1, col 3",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Address",
+   "text": "S. no. 245/ 104, Pushpakamal, Deccan Gymkhana Society, lane no. 3 Prabhat Road, opposite PYC basketball court, Deccan Gymkhana, Pune – 411 004 Maharashtra, India"
+  },
+  {
+   "key": "body/tbl70/r2c0",
+   "stratum": "structural",
+   "location": "table 70, row 2, col 0",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Name",
+   "text": "Rajesh Kushal Hegde"
+  },
+  {
+   "key": "body/tbl70/r2c1",
+   "stratum": "structural",
+   "location": "table 70, row 2, col 1",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Designation",
+   "text": "Managing Director"
+  },
+  {
+   "key": "body/tbl70/r2c2",
+   "stratum": "structural",
+   "location": "table 70, row 2, col 2",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "DIN",
+   "text": "00114193"
+  },
+  {
+   "key": "body/tbl70/r2c3",
+   "stratum": "structural",
+   "location": "table 70, row 2, col 3",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Address",
+   "text": "12 Buena Monte, NCL co-operative housing society, Panchvati, Pashan, Pune – 411 008, Maharashtra, India"
+  },
+  {
+   "key": "body/tbl70/r3c0",
+   "stratum": "structural",
+   "location": "table 70, row 3, col 0",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Name",
+   "text": "Rohit Kushal Hegde"
+  },
+  {
+   "key": "body/tbl70/r3c1",
+   "stratum": "structural",
+   "location": "table 70, row 3, col 1",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Designation",
+   "text": "Joint Managing Director"
+  },
+  {
+   "key": "body/tbl70/r3c2",
+   "stratum": "structural",
+   "location": "table 70, row 3, col 2",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "DIN",
+   "text": "00134926"
+  },
+  {
+   "key": "body/tbl70/r3c3",
+   "stratum": "structural",
+   "location": "table 70, row 3, col 3",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Address",
+   "text": "Pushpakamal Apartment, Flat – 1, S. no. 245/ 104, Prabhat Road Lane no. 3, Shivaji Nagar, Deccan Gymkhana, Pune – 411 004, Maharashtra, India"
+  },
+  {
+   "key": "body/tbl70/r4c0",
+   "stratum": "structural",
+   "location": "table 70, row 4, col 0",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Name",
+   "text": "Rakhi Girija Shetty"
+  },
+  {
+   "key": "body/tbl70/r4c1",
+   "stratum": "structural",
+   "location": "table 70, row 4, col 1",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Designation",
+   "text": "Whole-time Director"
+  },
+  {
+   "key": "body/tbl70/r4c2",
+   "stratum": "structural",
+   "location": "table 70, row 4, col 2",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "DIN",
+   "text": "03124510"
+  },
+  {
+   "key": "body/tbl70/r4c3",
+   "stratum": "structural",
+   "location": "table 70, row 4, col 3",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Address",
+   "text": "S. no. 245/ 104, Pushpakamal, Deccan Gymkhana Society, lane no.\n3 Prabhat Road, opposite PYC basketball court, Erandawane, Deccan Gymkhana, Pune – 411 004 Maharashtra, India"
+  },
+  {
+   "key": "body/tbl70/r5c0",
+   "stratum": "structural",
+   "location": "table 70, row 5, col 0",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Name",
+   "text": "Dinesh Hirachand Munot"
+  },
+  {
+   "key": "body/tbl70/r5c1",
+   "stratum": "structural",
+   "location": "table 70, row 5, col 1",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Designation",
+   "text": "Independent Director"
+  },
+  {
+   "key": "body/tbl70/r5c2",
+   "stratum": "structural",
+   "location": "table 70, row 5, col 2",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "DIN",
+   "text": "00049801"
+  },
+  {
+   "key": "body/tbl70/r5c3",
+   "stratum": "structural",
+   "location": "table 70, row 5, col 3",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Address",
+   "text": "Pratik Bunglow, Senapati Bapat Road, behind Sahara Hotel, Shivajinagar, Model Colony, Pune – 411 016, Maharashtra, India"
+  },
+  {
+   "key": "body/tbl70/r6c0",
+   "stratum": "structural",
+   "location": "table 70, row 6, col 0",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Name",
+   "text": "Ajay Shriram Patil"
+  },
+  {
+   "key": "body/tbl70/r6c1",
+   "stratum": "structural",
+   "location": "table 70, row 6, col 1",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Designation",
+   "text": "Independent Director"
+  },
+  {
+   "key": "body/tbl70/r6c2",
+   "stratum": "structural",
+   "location": "table 70, row 6, col 2",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "DIN",
+   "text": "01217000"
+  },
+  {
+   "key": "body/tbl70/r6c3",
+   "stratum": "structural",
+   "location": "table 70, row 6, col 3",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Address",
+   "text": "602, Gopalkrupa Apartment, Bhonde colony, Prabhat Road, Erandawane, Pune – 411 004, Maharashtra, India"
+  },
+  {
+   "key": "body/tbl70/r7c0",
+   "stratum": "structural",
+   "location": "table 70, row 7, col 0",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Name",
+   "text": "Ram Kumar Tiwari"
+  },
+  {
+   "key": "body/tbl70/r7c1",
+   "stratum": "structural",
+   "location": "table 70, row 7, col 1",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Designation",
+   "text": "Independent Director"
+  },
+  {
+   "key": "body/tbl70/r7c2",
+   "stratum": "structural",
+   "location": "table 70, row 7, col 2",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "DIN",
+   "text": "10938958"
+  },
+  {
+   "key": "body/tbl70/r7c3",
+   "stratum": "structural",
+   "location": "table 70, row 7, col 3",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Address",
+   "text": "A-259, JK Road, Minal Residency, Huzur, Govindpura, Bhopal – 462 023, Madhya Pradesh, India"
+  },
+  {
+   "key": "body/tbl70/r8c0",
+   "stratum": "structural",
+   "location": "table 70, row 8, col 0",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Name",
+   "text": "Indu Jacob"
+  },
+  {
+   "key": "body/tbl70/r8c1",
+   "stratum": "structural",
+   "location": "table 70, row 8, col 1",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Designation",
+   "text": "Independent Director"
+  },
+  {
+   "key": "body/tbl70/r8c2",
+   "stratum": "structural",
+   "location": "table 70, row 8, col 2",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "DIN",
+   "text": "05293084"
+  },
+  {
+   "key": "body/tbl70/r8c3",
+   "stratum": "structural",
+   "location": "table 70, row 8, col 3",
+   "kind": "table-cell",
+   "section": "Board of Directors of our Company",
+   "column_header": "Address",
+   "text": "A29, Abhimanshree Society, Pashan Road, Pune – 411 008, Maharashtra, India"
+  },
+  {
+   "key": "body/p742",
+   "stratum": "contact",
+   "location": "paragraph 742",
+   "kind": "paragraph",
+   "section": "Company Secretary and Compliance Officer",
+   "column_header": null,
+   "text": "Taluka Khed, District Pune – 410 501"
+  },
+  {
+   "key": "body/p744",
+   "stratum": "contact",
+   "location": "paragraph 744",
+   "kind": "paragraph",
+   "section": "Company Secretary and Compliance Officer",
+   "column_header": null,
+   "text": "Telephone: + 91 20 45053237"
+  },
+  {
+   "key": "body/p745",
+   "stratum": "contact",
+   "location": "paragraph 745",
+   "kind": "paragraph",
+   "section": "Company Secretary and Compliance Officer",
+   "column_header": null,
+   "text": "E-mail: Sarthak.malvadkar@kshinterantional.com"
+  },
+  {
+   "key": "body/p749",
+   "stratum": "prose",
+   "location": "paragraph 749",
+   "kind": "paragraph",
+   "section": "Investor grievances",
+   "column_header": null,
+   "text": "All Offer-related grievances of the Anchor Investors may be addressed to the Registrar to the Offer, giving full details such as the name of the sole or First Bidder, Anchor Investor Application Form number, Bidders’ DP ID, Client ID, PAN, date of the Anchor Investor Application Form, address of the Bidder, number of the Equity Shares applied for, Bid Amount paid on submission of the Anchor Investor Application Form and the name and address of the BRLMs where the Anchor Investor Application Form was submitted by the Anchor Investor."
+  },
+  {
+   "key": "body/p755",
+   "stratum": "contact",
+   "location": "paragraph 755",
+   "kind": "paragraph",
+   "section": "Book Running Lead Managers",
+   "column_header": null,
+   "text": "Bandra East, Mumbai – 400 051 Maharashtra, India"
+  },
+  {
+   "key": "body/p756",
+   "stratum": "contact",
+   "location": "paragraph 756",
+   "kind": "paragraph",
+   "section": "Book Running Lead Managers",
+   "column_header": null,
+   "text": "Telephone: +91 22 40094400 Email: ksh.ipo@nuvama.com Website: www.nuvama.com"
+  },
+  {
+   "key": "body/p757",
+   "stratum": "contact",
+   "location": "paragraph 757",
+   "kind": "paragraph",
+   "section": "Book Running Lead Managers",
+   "column_header": null,
+   "text": "Investor grievance E-mail: customerservice.mb@nuvama.com"
+  },
+  {
+   "key": "body/p761",
+   "stratum": "contact",
+   "location": "paragraph 761",
+   "kind": "paragraph",
+   "section": "Book Running Lead Managers",
+   "column_header": null,
+   "text": "ICICI Securities Limited ICICI Venture House Appasaheb Marathe Marg Prabhadevi, Mumbai – 400 025 Maharashtra, India"
+  },
+  {
+   "key": "body/p762",
+   "stratum": "contact",
+   "location": "paragraph 762",
+   "kind": "paragraph",
+   "section": "Book Running Lead Managers",
+   "column_header": null,
+   "text": "Telephone: +91 22 6807 7100 Email: ksh@icicisecurities.com Website: www.icicisecurities.com Investor grievance E-mail: customercare@icicisecurities.com"
+  },
+  {
+   "key": "body/tbl72/r10c1",
+   "stratum": "negative",
+   "location": "table 72, row 10, col 1",
+   "kind": "table-cell",
+   "section": "Statement of inter-se allocation of responsibilities among the BRLMs",
+   "column_header": "Activities",
+   "text": "Post-Offer activities, which shall involve essential follow-up with Bankers to the Issue and SCSBs to get quick estimates of collection and advising Company about the closure of the Issue, based on correct figures, finalisation of the basis of allotment or weeding out of multiple applications, unblocking of application monies, listing of instruments, dispatch of certificates or demat credit and refunds, payment of applicable Securities Transaction Tax on behalf of the Promoter Selling Shareholders and coordination with various agencies connected with the post-Offer activity such as Registrar to the Issue, Bankers to the Issue, Sponsor Banks, SCSBs including responsibility for underwriting arrangements, as applicable.\nCoordinating with Stock Exchanges and SEBI for submission of all post-Issue reports including the initial and final post-Issue report to SEBI."
+  },
+  {
+   "key": "body/p779",
+   "stratum": "contact",
+   "location": "paragraph 779",
+   "kind": "paragraph",
+   "section": "Syndicate Members",
+   "column_header": null,
+   "text": "Telephone: + 91 22 4009 4400"
+  },
+  {
+   "key": "body/p780",
+   "stratum": "contact",
+   "location": "paragraph 780",
+   "kind": "paragraph",
+   "section": "Syndicate Members",
+   "column_header": null,
+   "text": "Email: ksh.ipo@nuvama.com, prakash.boricha@nuvama.com, and sheetal.parab@nuvama.com"
+  },
+  {
+   "key": "body/p782",
+   "stratum": "contact",
+   "location": "paragraph 782",
+   "kind": "paragraph",
+   "section": "Syndicate Members",
+   "column_header": null,
+   "text": "Contact Person: Prakash Boricha"
+  },
+  {
+   "key": "body/p785",
+   "stratum": "contact",
+   "location": "paragraph 785",
+   "kind": "paragraph",
+   "section": "Syndicate Members",
+   "column_header": null,
+   "text": "ICICI Securities Limited ICICI Venture House Appasaheb Marathe Marg Prabhadevi, Mumbai – 400 025 Maharashtra, India"
+  },
+  {
+   "key": "body/p786",
+   "stratum": "contact",
+   "location": "paragraph 786",
+   "kind": "paragraph",
+   "section": "Syndicate Members",
+   "column_header": null,
+   "text": "Telephone: +91 22 6807 7100 Email: ksh@icicisecurities.com Website: www.icicisecurities.com"
+  },
+  {
+   "key": "body/p787",
+   "stratum": "contact",
+   "location": "paragraph 787",
+   "kind": "paragraph",
+   "section": "Syndicate Members",
+   "column_header": null,
+   "text": "Investor grievance E-mail: customercare@icicisecurities.com"
+  },
+  {
+   "key": "body/p794",
+   "stratum": "contact",
+   "location": "paragraph 794",
+   "kind": "paragraph",
+   "section": "Legal Counsel to our Company as to Indian Law Trilegal",
+   "column_header": null,
+   "text": "Senapati Bapat Marg, Lower Parel (West) Mumbai – 400 013"
+  },
+  {
+   "key": "body/p796",
+   "stratum": "contact",
+   "location": "paragraph 796",
+   "kind": "paragraph",
+   "section": "Legal Counsel to our Company as to Indian Law Trilegal",
+   "column_header": null,
+   "text": "Email: ipo@trilegal.com"
+  },
+  {
+   "key": "body/p797",
+   "stratum": "contact",
+   "location": "paragraph 797",
+   "kind": "paragraph",
+   "section": "Legal Counsel to our Company as to Indian Law Trilegal",
+   "column_header": null,
+   "text": "Telephone: +91 22 4079 1000"
+  },
+  {
+   "key": "body/p801",
+   "stratum": "contact",
+   "location": "paragraph 801",
+   "kind": "paragraph",
+   "section": "Registrar to the Offer",
+   "column_header": null,
+   "text": "1st Floor, L B S Marg, Vikhroli (West) Mumbai 400083, (Maharashtra), India Telephone: +91 81081 14949"
+  },
+  {
+   "key": "body/p802",
+   "stratum": "contact",
+   "location": "paragraph 802",
+   "kind": "paragraph",
+   "section": "Registrar to the Offer",
+   "column_header": null,
+   "text": "E-mail: kshinternational.ipo@in.mpms.mufg.com"
+  },
+  {
+   "key": "body/p803",
+   "stratum": "contact",
+   "location": "paragraph 803",
+   "kind": "paragraph",
+   "section": "Registrar to the Offer",
+   "column_header": null,
+   "text": "Investor grievance E-mail: kshinternational.ipo@in.mpms.mufg.com"
+  },
+  {
+   "key": "body/p804",
+   "stratum": "contact",
+   "location": "paragraph 804",
+   "kind": "paragraph",
+   "section": "Registrar to the Offer",
+   "column_header": null,
+   "text": "Website: www.in.mpms.mufg.com Contact Person: Shanti Gopalkrishnan SEBI Registration No.: INR000004058"
+  },
+  {
+   "key": "body/p809",
+   "stratum": "contact",
+   "location": "paragraph 809",
+   "kind": "paragraph",
+   "section": "Registrar to the Offer",
+   "column_header": null,
+   "text": "Next to Kanjurmarg Railway Station, Kanjurmarg (East) Mumbai – 400042, Maharashtra, India"
+  },
+  {
+   "key": "body/p810",
+   "stratum": "contact",
+   "location": "paragraph 810",
+   "kind": "paragraph",
+   "section": "Registrar to the Offer",
+   "column_header": null,
+   "text": "Telephone: +91 22 30752929, +91 22 30752928 and +91 22 30752914"
+  },
+  {
+   "key": "body/p811",
+   "stratum": "contact",
+   "location": "paragraph 811",
+   "kind": "paragraph",
+   "section": "Registrar to the Offer",
+   "column_header": null,
+   "text": "Email: siddharth.jadhav@hdfcbank.com, sachin.gawade@hdfcbank.com eric.bacha@hdfcbank.com, tushar.gavankar@hdfcbank.com, and pravin.teli2@hdfcbank.com Website: www.hdfcbank.com"
+  },
+  {
+   "key": "body/p812",
+   "stratum": "contact",
+   "location": "paragraph 812",
+   "kind": "paragraph",
+   "section": "Registrar to the Offer",
+   "column_header": null,
+   "text": "Contact Person: Eric Bacha/ Sachin Gawade/ Pravin Teli/ Siddharth Jadhav/ Tushar Gavankar"
+  },
+  {
+   "key": "body/p819",
+   "stratum": "contact",
+   "location": "paragraph 819",
+   "kind": "paragraph",
+   "section": "ICICI Bank Limited",
+   "column_header": null,
+   "text": "163, 5th Floor, H.T.Parekh Marg Backbay Reclamation Churchgate, Mumbai – 400020 Telephone: 022-68052182 Email: Ipocmg@icicibank.com Website: www.icicibank.com Contact Person: Varun Badai"
+  },
+  {
+   "key": "body/p825",
+   "stratum": "contact",
+   "location": "paragraph 825",
+   "kind": "paragraph",
+   "section": "HDFC Bank Limited",
+   "column_header": null,
+   "text": "Next to Kanjurmarg Railway Station, Kanjurmarg (East) Mumbai – 400042, Maharashtra, India"
+  },
+  {
+   "key": "body/p826",
+   "stratum": "contact",
+   "location": "paragraph 826",
+   "kind": "paragraph",
+   "section": "HDFC Bank Limited",
+   "column_header": null,
+   "text": "Telephone: +91 22 30752929, +91 22 30752928 and +91 22 30752914"
+  },
+  {
+   "key": "body/p827",
+   "stratum": "contact",
+   "location": "paragraph 827",
+   "kind": "paragraph",
+   "section": "HDFC Bank Limited",
+   "column_header": null,
+   "text": "Email: siddharth.jadhav@hdfcbank.com, sachin.gawade@hdfcbank.com eric.bacha@hdfcbank.com, tushar.gavankar@hdfcbank.com, and pravin.teli2@hdfcbank.com Website: www.hdfcbank.com"
+  },
+  {
+   "key": "body/p828",
+   "stratum": "contact",
+   "location": "paragraph 828",
+   "kind": "paragraph",
+   "section": "HDFC Bank Limited",
+   "column_header": null,
+   "text": "Contact Person: Eric Bacha/ Sachin Gawade/ Pravin Teli/ Siddharth Jadhav/ Tushar Gavankar"
+  },
+  {
+   "key": "body/p835",
+   "stratum": "contact",
+   "location": "paragraph 835",
+   "kind": "paragraph",
+   "section": "ICICI Bank Limited",
+   "column_header": null,
+   "text": "163, 5th Floor, H.T.Parekh Marg Backbay Reclamation Churchgate, Mumbai – 400020 Telephone: 022-68052182 Email: Ipocmg@icicibank.com Website: www.icicibank.com Contact Person: Varun Badai"
+  },
+  {
+   "key": "body/p840",
+   "stratum": "contact",
+   "location": "paragraph 840",
+   "kind": "paragraph",
+   "section": "HDFC Bank Limited",
+   "column_header": null,
+   "text": "Next to Kanjurmarg Railway Station, Kanjurmarg (East) Mumbai – 400042, Maharashtra, India"
+  },
+  {
+   "key": "body/p841",
+   "stratum": "contact",
+   "location": "paragraph 841",
+   "kind": "paragraph",
+   "section": "HDFC Bank Limited",
+   "column_header": null,
+   "text": "Telephone: +91 22 30752929, +91 22 30752928 and +91 22 30752914"
+  },
+  {
+   "key": "body/p842",
+   "stratum": "contact",
+   "location": "paragraph 842",
+   "kind": "paragraph",
+   "section": "HDFC Bank Limited",
+   "column_header": null,
+   "text": "Email: siddharth.jadhav@hdfcbank.com, sachin.gawade@hdfcbank.com eric.bacha@hdfcbank.com, tushar.gavankar@hdfcbank.com, and pravin.teli2@hdfcbank.com Website: www.hdfcbank.com"
+  },
+  {
+   "key": "body/p843",
+   "stratum": "contact",
+   "location": "paragraph 843",
+   "kind": "paragraph",
+   "section": "HDFC Bank Limited",
+   "column_header": null,
+   "text": "Contact Person: Eric Bacha/ Sachin Gawade/ Pravin Teli/ Siddharth Jadhav/ Tushar Gavankar"
+  },
+  {
+   "key": "body/p849",
+   "stratum": "prose",
+   "location": "paragraph 849",
+   "kind": "paragraph",
+   "section": "Self-Certified Syndicate Banks",
+   "column_header": null,
+   "text": "The list of SCSBs notified by SEBI for the ASBA process is available at http://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognised=yes, or at such other website as may be prescribed by SEBI from time to time. A list of the Designated SCSB Branches with which an ASBA Bidder (other than a RIB using the UPI Mechanism), not Bidding through Syndicate/Sub Syndicate or through a Registered Broker, RTA or CDP may submit the Bid cum\tApplication\tForms,\tis\tavailable\tat https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=34, or at such other websites as may be prescribed by SEBI from time to time."
+  },
+  {
+   "key": "body/p871",
+   "stratum": "contact",
+   "location": "paragraph 871",
+   "kind": "paragraph",
+   "section": "Statutory Auditors to our Company",
+   "column_header": null,
+   "text": "Pune – 411 038"
+  },
+  {
+   "key": "body/p873",
+   "stratum": "contact",
+   "location": "paragraph 873",
+   "kind": "paragraph",
+   "section": "Statutory Auditors to our Company",
+   "column_header": null,
+   "text": "E-mail: parag.pansare@kirtanepandit.com"
+  },
+  {
+   "key": "body/p874",
+   "stratum": "contact",
+   "location": "paragraph 874",
+   "kind": "paragraph",
+   "section": "Statutory Auditors to our Company",
+   "column_header": null,
+   "text": "Telephone: + 91 (20) 6729 5100"
+  },
+  {
+   "key": "body/tbl73/r1c0",
+   "stratum": "contact",
+   "location": "table 73, row 1, col 0",
+   "kind": "table-cell",
+   "section": "Changes in Auditors",
+   "column_header": "Particulars",
+   "text": "Kirtane & Pandit, LLP, Chartered Accountants\n5th Floor, Gopal House\nOpposite Harshal Hall, above HDFC Limited Karve Road, Pune – 411 038\nMaharashtra, India\nE-mail: parag.pansare@kirtanepandit.com\nTelephone: + 91 20 6729 5100\nFirm registration number: 105215W/ W100057\nPeer review number: 014680"
+  },
+  {
+   "key": "body/tbl73/r2c0",
+   "stratum": "contact",
+   "location": "table 73, row 2, col 0",
+   "kind": "table-cell",
+   "section": "Changes in Auditors",
+   "column_header": "Particulars",
+   "text": "Hingne Tare & Associates Flat No. 102, Sai Complex Shaniwar Peth, Pune – 411 030 Maharashtra, India\nE-mail: hingnetare@gmail.com\nFirm registration number: 116417W\nPeer review number: N.A."
+  },
+  {
+   "key": "body/p886",
+   "stratum": "contact",
+   "location": "paragraph 886",
+   "kind": "paragraph",
+   "section": "Bankers to our Company",
+   "column_header": null,
+   "text": "Koregaon Park, Pune – 411 001 Maharashtra, India"
+  },
+  {
+   "key": "body/p887",
+   "stratum": "contact",
+   "location": "paragraph 887",
+   "kind": "paragraph",
+   "section": "Bankers to our Company",
+   "column_header": null,
+   "text": "Telephone: +91 20 6606 4494"
+  },
+  {
+   "key": "body/p888",
+   "stratum": "contact",
+   "location": "paragraph 888",
+   "kind": "paragraph",
+   "section": "Bankers to our Company",
+   "column_header": null,
+   "text": "Contact Person: Hitesh Ramani"
+  },
+  {
+   "key": "body/p890",
+   "stratum": "contact",
+   "location": "paragraph 890",
+   "kind": "paragraph",
+   "section": "Bankers to our Company",
+   "column_header": null,
+   "text": "Email: hitesh.ramani@citi.com"
+  },
+  {
+   "key": "body/p897",
+   "stratum": "contact",
+   "location": "paragraph 897",
+   "kind": "paragraph",
+   "section": "Export-Import Bank of India",
+   "column_header": null,
+   "text": "Signature Building, Bhandarkar road Shivaji Nagar, Pune – 411 004 Maharashtra, India"
+  },
+  {
+   "key": "body/p898",
+   "stratum": "contact",
+   "location": "paragraph 898",
+   "kind": "paragraph",
+   "section": "Export-Import Bank of India",
+   "column_header": null,
+   "text": "Telephone: +91 20 2640 3100 Contact Person: Chitra Raste Website: www.eximbankindia.in/ Email: pro@eximbankindia.in"
+  },
+  {
+   "key": "body/p903",
+   "stratum": "contact",
+   "location": "paragraph 903",
+   "kind": "paragraph",
+   "section": "Export-Import Bank of India",
+   "column_header": null,
+   "text": "Pune – 411 001"
+  },
+  {
+   "key": "body/p905",
+   "stratum": "contact",
+   "location": "paragraph 905",
+   "kind": "paragraph",
+   "section": "Export-Import Bank of India",
+   "column_header": null,
+   "text": "Telephone: +91-20-26234000 Contact Person: Sharmila Joshi Website: www.indusind.com/ Email: sharmila.joshi@indusind.com"
+  },
+  {
+   "key": "body/p909",
+   "stratum": "contact",
+   "location": "paragraph 909",
+   "kind": "paragraph",
+   "section": "ICICI Bank Limited",
+   "column_header": null,
+   "text": "Bund Garden Road, Pune – 411 001 Maharashtra, India"
+  },
+  {
+   "key": "body/p910",
+   "stratum": "contact",
+   "location": "paragraph 910",
+   "kind": "paragraph",
+   "section": "ICICI Bank Limited",
+   "column_header": null,
+   "text": "Telephone: + 91 8879770456 Contact Person: Cherag Gyara Website: www.icicibank.com Email: cherag.gyara@icicibank.com"
+  },
+  {
+   "key": "body/p914",
+   "stratum": "contact",
+   "location": "paragraph 914",
+   "kind": "paragraph",
+   "section": "HDFC Bank Limited",
+   "column_header": null,
+   "text": "Pune – 411 001"
+  },
+  {
+   "key": "body/p916",
+   "stratum": "contact",
+   "location": "paragraph 916",
+   "kind": "paragraph",
+   "section": "HDFC Bank Limited",
+   "column_header": null,
+   "text": "Telephone: +91 20 6769 4648 Contact Person: Manisha Shukla Website: www.hdfcbank.com"
+  },
+  {
+   "key": "body/p917",
+   "stratum": "contact",
+   "location": "paragraph 917",
+   "kind": "paragraph",
+   "section": "HDFC Bank Limited",
+   "column_header": null,
+   "text": "Email: manisha.shukla@hdfcbank.com"
+  },
+  {
+   "key": "body/p921",
+   "stratum": "contact",
+   "location": "paragraph 921",
+   "kind": "paragraph",
+   "section": "State Bank of India, Industrial Finance Branch",
+   "column_header": null,
+   "text": "Pune – 411 003"
+  },
+  {
+   "key": "body/p923",
+   "stratum": "contact",
+   "location": "paragraph 923",
+   "kind": "paragraph",
+   "section": "State Bank of India, Industrial Finance Branch",
+   "column_header": null,
+   "text": "Telephone: +91 20 2561 8211 Contact Person: Tushar Wakhele Website: www.sbi.co.in"
+  },
+  {
+   "key": "body/p924",
+   "stratum": "contact",
+   "location": "paragraph 924",
+   "kind": "paragraph",
+   "section": "State Bank of India, Industrial Finance Branch",
+   "column_header": null,
+   "text": "Email: rm6.ifbpune@sbi.co.in"
+  },
+  {
+   "key": "body/p929",
+   "stratum": "contact",
+   "location": "paragraph 929",
+   "kind": "paragraph",
+   "section": "State Bank of India, Industrial Finance Branch",
+   "column_header": null,
+   "text": "Telephone: + 91 91586 40360"
+  },
+  {
+   "key": "body/p930",
+   "stratum": "contact",
+   "location": "paragraph 930",
+   "kind": "paragraph",
+   "section": "State Bank of India, Industrial Finance Branch",
+   "column_header": null,
+   "text": "Contact Person: Ashish Mathew Pulloor"
+  },
+  {
+   "key": "body/p932",
+   "stratum": "contact",
+   "location": "paragraph 932",
+   "kind": "paragraph",
+   "section": "State Bank of India, Industrial Finance Branch",
+   "column_header": null,
+   "text": "Email: ashishmp@federalbank.co.in"
+  },
+  {
+   "key": "body/p937",
+   "stratum": "contact",
+   "location": "paragraph 937",
+   "kind": "paragraph",
+   "section": "Bajaj Finance Limited",
+   "column_header": null,
+   "text": "Telephone: +91 20 7157 6403 Contact Person: Anand Soni Website: www.bajajfinance.com Email: anand.soni@bajajfinserv.in"
+  },
+  {
+   "key": "body/p956",
+   "stratum": "contact",
+   "location": "paragraph 956",
+   "kind": "paragraph",
+   "section": "Securities and Exchange Board of India",
+   "column_header": null,
+   "text": "Bandra Kurla Complex, Bandra (E) Mumbai – 400 051, Maharashtra, India"
+  },
+  {
+   "key": "body/p961",
+   "stratum": "contact",
+   "location": "paragraph 961",
+   "kind": "paragraph",
+   "section": "Book Building Process",
+   "column_header": null,
+   "text": "Book building, in the context of the Offer, refers to the process of collection of Bids from Bidders on the basis of this Red Herring Prospectus and the Bid cum Application Forms and the Revision Forms within the Price Band. The Price Band and the minimum Bid Lot will be decided by our Company, in consultation with the BRLMs, and will be advertised in all editions of Financial Express (a widely circulated English national daily newspaper), all editions of Jansatta (a widely circulated Hindi national daily newspaper) and Pune edition of Loksatta (a widely circulated Marathi newspaper, Marathi being the regional language of Maharashtra, where our Registered Office is located), at least two Working Days prior to the Bid/Offer Opening Date and shall be made available to the Stock Exchanges for the purposes of uploading on their respective websites. Pursuant to the Book Building Process, the Offer Price shall be determined by our Company, in consultation with the BRLMs, after the Bid/Offer Closing Date. For details, see “Offer Procedure” on page 420."
+  },
+  {
+   "key": "body/tbl74/r0c0",
+   "stratum": "structural",
+   "location": "table 74, row 0, col 0",
+   "kind": "table-cell",
+   "section": "Underwriting Agreement",
+   "column_header": null,
+   "text": "Name, address, telephone and e-mail address of the Underwriters"
+  },
+  {
+   "key": "body/tbl74/r0c1",
+   "stratum": "structural",
+   "location": "table 74, row 0, col 1",
+   "kind": "table-cell",
+   "section": "Underwriting Agreement",
+   "column_header": null,
+   "text": "Indicative Number of Equity Shares of face value of ₹5 each to be Underwritten"
+  },
+  {
+   "key": "body/tbl74/r0c2",
+   "stratum": "structural",
+   "location": "table 74, row 0, col 2",
+   "kind": "table-cell",
+   "section": "Underwriting Agreement",
+   "column_header": null,
+   "text": "Amount Underwritten (₹ in million)"
+  },
+  {
+   "key": "body/tbl74/r1c0",
+   "stratum": "structural",
+   "location": "table 74, row 1, col 0",
+   "kind": "table-cell",
+   "section": "Underwriting Agreement",
+   "column_header": "Name, address, telephone and e-mail address of the Underwriters",
+   "text": "[●]"
+  },
+  {
+   "key": "body/tbl74/r1c1",
+   "stratum": "structural",
+   "location": "table 74, row 1, col 1",
+   "kind": "table-cell",
+   "section": "Underwriting Agreement",
+   "column_header": "Indicative Number of Equity Shares of face value of ₹5 each to be Underwritten",
+   "text": "[●]"
+  },
+  {
+   "key": "body/tbl74/r1c2",
+   "stratum": "structural",
+   "location": "table 74, row 1, col 2",
+   "kind": "table-cell",
+   "section": "Underwriting Agreement",
+   "column_header": "Amount Underwritten (₹ in million)",
+   "text": "[●]"
+  },
+  {
+   "key": "body/tbl74/r2c0",
+   "stratum": "structural",
+   "location": "table 74, row 2, col 0",
+   "kind": "table-cell",
+   "section": "Underwriting Agreement",
+   "column_header": "Name, address, telephone and e-mail address of the Underwriters",
+   "text": "[●]"
+  },
+  {
+   "key": "body/tbl74/r2c1",
+   "stratum": "structural",
+   "location": "table 74, row 2, col 1",
+   "kind": "table-cell",
+   "section": "Underwriting Agreement",
+   "column_header": "Indicative Number of Equity Shares of face value of ₹5 each to be Underwritten",
+   "text": "[●]"
+  },
+  {
+   "key": "body/tbl74/r2c2",
+   "stratum": "structural",
+   "location": "table 74, row 2, col 2",
+   "kind": "table-cell",
+   "section": "Underwriting Agreement",
+   "column_header": "Amount Underwritten (₹ in million)",
+   "text": "[●]"
+  },
+  {
+   "key": "body/p978",
+   "stratum": "prose",
+   "location": "paragraph 978",
+   "kind": "paragraph",
+   "section": "Underwriting Agreement",
+   "column_header": null,
+   "text": "The above-mentioned underwriting commitment is indicative and will be finalized after determination of the Offer Price and Basis of Allotment and will be subject to Regulation 40(3) of the SEBI ICDR Regulations."
+  }
+ ]
+}

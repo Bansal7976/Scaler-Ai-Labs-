@@ -1,0 +1,16 @@
+# Core
+python-docx>=1.1.0          # read and write .docx at the run level
+Faker>=25.0.0               # surrogate names and place words (en_IN locale)
+
+# Optional but used by the shipped configuration. Both degrade gracefully:
+# without spaCy the NER strategy is skipped; without phonenumbers the phone
+# detector falls back to length and digit-variety checks.
+spacy>=3.7,<4.0
+phonenumbers>=8.13
+
+# Development
+pytest>=8.0
+
+# The spaCy model. Install with either of:
+#   python -m spacy download en_core_web_md
+#   pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl
